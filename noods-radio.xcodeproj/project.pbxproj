@@ -703,7 +703,7 @@
 		};
 		6E583AA227EA3CF80063B0D7 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Moya/Moya.git";
+			repositoryURL = "https://github.com/markst/Moya.git";
 			requirement = {
 				branch = master;
 				kind = branch;

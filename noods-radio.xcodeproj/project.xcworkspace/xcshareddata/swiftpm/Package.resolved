@@ -12,20 +12,11 @@
       },
       {
         "package": "Moya",
-        "repositoryURL": "https://github.com/Moya/Moya.git",
+        "repositoryURL": "https://github.com/markst/Moya.git",
         "state": {
           "branch": "master",
-          "revision": "42b4da6cf00ce35874f2aebebefb9564c2fdb799",
+          "revision": "cbe483eb7a834725e750fd995ac3d34f46aa4ee1",
           "version": null
-        }
-      },
-      {
-        "package": "ReactiveSwift",
-        "repositoryURL": "https://github.com/ReactiveCocoa/ReactiveSwift.git",
-        "state": {
-          "branch": null,
-          "revision": "c43bae3dac73fdd3cb906bd5a1914686ca71ed3c",
-          "version": "6.7.0"
         }
       },
       {
