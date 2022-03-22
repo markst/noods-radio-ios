@@ -11,6 +11,16 @@
 		6E583A5A27EA34160063B0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E583A5927EA34160063B0D7 /* Assets.xcassets */; };
 		6E583A5F27EA34230063B0D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583A5C27EA34230063B0D7 /* AppDelegate.swift */; };
 		6E583A6327EA35D40063B0D7 /* UIKitPlus in Frameworks */ = {isa = PBXBuildFile; productRef = 6E583A6227EA35D40063B0D7 /* UIKitPlus */; };
+		6E583AA427EA3CF80063B0D7 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 6E583AA327EA3CF80063B0D7 /* RxMoya */; };
+		6E583AA727EA3F0D0063B0D7 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AA627EA3F0D0063B0D7 /* Show.swift */; };
+		6E583AAB27EA4C1F0063B0D7 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AAA27EA4C1F0063B0D7 /* Repository.swift */; };
+		6E583AAD27EA4C3C0063B0D7 /* PanelApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AAC27EA4C3C0063B0D7 /* PanelApi.swift */; };
+		6E583AB027EA4E520063B0D7 /* JSONDecoder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AAF27EA4E520063B0D7 /* JSONDecoder+Extensions.swift */; };
+		6E583ABA27EA4FEE0063B0D7 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB427EA4FA90063B0D7 /* RepositoryTests.swift */; };
+		6ED09A4227EA533100C56F6B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 6ED09A4127EA533100C56F6B /* RxBlocking */; };
+		6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */; };
+		6ED09A4727EA556F00C56F6B /* NoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */; };
+		6ED09A4827EA556F00C56F6B /* NoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB727EA4FAD0063B0D7 /* NoodsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6E583A0B27EA224E0063B0D7 /* noods-radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "noods-radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E583A2127EA224E0063B0D7 /* noods-radioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "noods-radioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E583A2B27EA224E0063B0D7 /* noods-radioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "noods-radioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E583A0B27EA224E0063B0D7 /* NoodsRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoodsRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E583A2127EA224E0063B0D7 /* NoodsRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoodsRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E583A2B27EA224E0063B0D7 /* NoodsRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoodsRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E583A5727EA34100063B0D7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E583A5927EA34160063B0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E583A5B27EA34220063B0D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E583A5C27EA34230063B0D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E583AA627EA3F0D0063B0D7 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		6E583AAA27EA4C1F0063B0D7 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		6E583AAC27EA4C3C0063B0D7 /* PanelApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelApi.swift; sourceTree = "<group>"; };
+		6E583AAF27EA4E520063B0D7 /* JSONDecoder+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extensions.swift"; sourceTree = "<group>"; };
+		6E583AB427EA4FA90063B0D7 /* RepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E583AB727EA4FAD0063B0D7 /* NoodsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoodsUITests.swift; sourceTree = "<group>"; };
+		6ED09A3E27EA514000C56F6B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodsRadioTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E583AA427EA3CF80063B0D7 /* RxMoya in Frameworks */,
 				6E583A6327EA35D40063B0D7 /* UIKitPlus in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED09A4227EA533100C56F6B /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,26 +95,20 @@
 				6E583A5527EA336F0063B0D7 /* Resources */,
 				6E583A5627EA33750063B0D7 /* Supporting Files */,
 				6E583A5427EA336A0063B0D7 /* Library */,
-				6E583A4527EA285C0063B0D7 /* Frameworks */,
+				6E583AB127EA4F440063B0D7 /* Tests */,
 				6E583A0C27EA224E0063B0D7 /* Products */,
+				6ED09A3D27EA514000C56F6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		6E583A0C27EA224E0063B0D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E583A0B27EA224E0063B0D7 /* noods-radio.app */,
-				6E583A2127EA224E0063B0D7 /* noods-radioTests.xctest */,
-				6E583A2B27EA224E0063B0D7 /* noods-radioUITests.xctest */,
+				6E583A0B27EA224E0063B0D7 /* NoodsRadio.app */,
+				6E583A2127EA224E0063B0D7 /* NoodsRadioTests.xctest */,
+				6E583A2B27EA224E0063B0D7 /* NoodsRadioUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6E583A4527EA285C0063B0D7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6E583A5227EA33540063B0D7 /* Application */ = {
@@ -115,6 +130,9 @@
 		6E583A5427EA336A0063B0D7 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				6E583AAE27EA4E4B0063B0D7 /* Extensions */,
+				6E583AA827EA4BFA0063B0D7 /* Services */,
+				6E583AA527EA3F010063B0D7 /* Models */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -135,12 +153,72 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6E583AA527EA3F010063B0D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E583AA627EA3F0D0063B0D7 /* Show.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E583AA827EA4BFA0063B0D7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6E583AAA27EA4C1F0063B0D7 /* Repository.swift */,
+				6E583AAC27EA4C3C0063B0D7 /* PanelApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6E583AAE27EA4E4B0063B0D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6E583AAF27EA4E520063B0D7 /* JSONDecoder+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6E583AB127EA4F440063B0D7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E583AB227EA4F650063B0D7 /* UnitTests */,
+				6E583AB327EA4F690063B0D7 /* UITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6E583AB227EA4F650063B0D7 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */,
+				6E583AB427EA4FA90063B0D7 /* RepositoryTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		6E583AB327EA4F690063B0D7 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E583AB727EA4FAD0063B0D7 /* NoodsUITests.swift */,
+				6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		6ED09A3D27EA514000C56F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ED09A3E27EA514000C56F6B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E583A0A27EA224D0063B0D7 /* noods-radio */ = {
+		6E583A0A27EA224D0063B0D7 /* NoodsRadio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E583A3527EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "noods-radio" */;
+			buildConfigurationList = 6E583A3527EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "NoodsRadio" */;
 			buildPhases = (
 				6E583A0727EA224D0063B0D7 /* Sources */,
 				6E583A0827EA224D0063B0D7 /* Frameworks */,
@@ -150,17 +228,18 @@
 			);
 			dependencies = (
 			);
-			name = "noods-radio";
+			name = NoodsRadio;
 			packageProductDependencies = (
 				6E583A6227EA35D40063B0D7 /* UIKitPlus */,
+				6E583AA327EA3CF80063B0D7 /* RxMoya */,
 			);
 			productName = noodsradio;
-			productReference = 6E583A0B27EA224E0063B0D7 /* noods-radio.app */;
+			productReference = 6E583A0B27EA224E0063B0D7 /* NoodsRadio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E583A2027EA224E0063B0D7 /* noods-radioTests */ = {
+		6E583A2027EA224E0063B0D7 /* NoodsRadioTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E583A3827EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "noods-radioTests" */;
+			buildConfigurationList = 6E583A3827EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "NoodsRadioTests" */;
 			buildPhases = (
 				6E583A1D27EA224E0063B0D7 /* Sources */,
 				6E583A1E27EA224E0063B0D7 /* Frameworks */,
@@ -171,14 +250,17 @@
 			dependencies = (
 				6E583A2327EA224E0063B0D7 /* PBXTargetDependency */,
 			);
-			name = "noods-radioTests";
+			name = NoodsRadioTests;
+			packageProductDependencies = (
+				6ED09A4127EA533100C56F6B /* RxBlocking */,
+			);
 			productName = noodsradioTests;
-			productReference = 6E583A2127EA224E0063B0D7 /* noods-radioTests.xctest */;
+			productReference = 6E583A2127EA224E0063B0D7 /* NoodsRadioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6E583A2A27EA224E0063B0D7 /* noods-radioUITests */ = {
+		6E583A2A27EA224E0063B0D7 /* NoodsRadioUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E583A3B27EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "noods-radioUITests" */;
+			buildConfigurationList = 6E583A3B27EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "NoodsRadioUITests" */;
 			buildPhases = (
 				6E583A2727EA224E0063B0D7 /* Sources */,
 				6E583A2827EA224E0063B0D7 /* Frameworks */,
@@ -189,9 +271,9 @@
 			dependencies = (
 				6E583A2D27EA224E0063B0D7 /* PBXTargetDependency */,
 			);
-			name = "noods-radioUITests";
+			name = NoodsRadioUITests;
 			productName = noodsradioUITests;
-			productReference = 6E583A2B27EA224E0063B0D7 /* noods-radioUITests.xctest */;
+			productReference = 6E583A2B27EA224E0063B0D7 /* NoodsRadioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,14 +311,16 @@
 			mainGroup = 6E583A0227EA224D0063B0D7;
 			packageReferences = (
 				6E583A6127EA35D40063B0D7 /* XCRemoteSwiftPackageReference "UIKitPlus" */,
+				6E583AA227EA3CF80063B0D7 /* XCRemoteSwiftPackageReference "Moya" */,
+				6ED09A4027EA533100C56F6B /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 6E583A0C27EA224E0063B0D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E583A0A27EA224D0063B0D7 /* noods-radio */,
-				6E583A2027EA224E0063B0D7 /* noods-radioTests */,
-				6E583A2A27EA224E0063B0D7 /* noods-radioUITests */,
+				6E583A0A27EA224D0063B0D7 /* NoodsRadio */,
+				6E583A2027EA224E0063B0D7 /* NoodsRadioTests */,
+				6E583A2A27EA224E0063B0D7 /* NoodsRadioUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +356,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E583AA727EA3F0D0063B0D7 /* Show.swift in Sources */,
+				6E583AB027EA4E520063B0D7 /* JSONDecoder+Extensions.swift in Sources */,
 				6E583A5F27EA34230063B0D7 /* AppDelegate.swift in Sources */,
+				6E583AAB27EA4C1F0063B0D7 /* Repository.swift in Sources */,
+				6E583AAD27EA4C3C0063B0D7 /* PanelApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +368,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */,
+				6E583ABA27EA4FEE0063B0D7 /* RepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +377,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED09A4727EA556F00C56F6B /* NoodsUITestsLaunchTests.swift in Sources */,
+				6ED09A4827EA556F00C56F6B /* NoodsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,12 +387,12 @@
 /* Begin PBXTargetDependency section */
 		6E583A2327EA224E0063B0D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E583A0A27EA224D0063B0D7 /* noods-radio */;
+			target = 6E583A0A27EA224D0063B0D7 /* NoodsRadio */;
 			targetProxy = 6E583A2227EA224E0063B0D7 /* PBXContainerItemProxy */;
 		};
 		6E583A2D27EA224E0063B0D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E583A0A27EA224D0063B0D7 /* noods-radio */;
+			target = 6E583A0A27EA224D0063B0D7 /* NoodsRadio */;
 			targetProxy = 6E583A2C27EA224E0063B0D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,7 +591,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noods-radio.app/noods-radio";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoodsRadio.app/NoodsRadio";
 			};
 			name = Debug;
 		};
@@ -519,7 +611,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noods-radio.app/noods-radio";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoodsRadio.app/NoodsRadio";
 			};
 			name = Release;
 		};
@@ -571,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E583A3527EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "noods-radio" */ = {
+		6E583A3527EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "NoodsRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E583A3627EA224E0063B0D7 /* Debug */,
@@ -580,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E583A3827EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "noods-radioTests" */ = {
+		6E583A3827EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "NoodsRadioTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E583A3927EA224E0063B0D7 /* Debug */,
@@ -589,7 +681,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E583A3B27EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "noods-radioUITests" */ = {
+		6E583A3B27EA224E0063B0D7 /* Build configuration list for PBXNativeTarget "NoodsRadioUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E583A3C27EA224E0063B0D7 /* Debug */,
@@ -609,6 +701,22 @@
 				kind = branch;
 			};
 		};
+		6E583AA227EA3CF80063B0D7 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6ED09A4027EA533100C56F6B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -616,6 +724,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6E583A6127EA35D40063B0D7 /* XCRemoteSwiftPackageReference "UIKitPlus" */;
 			productName = UIKitPlus;
+		};
+		6E583AA327EA3CF80063B0D7 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E583AA227EA3CF80063B0D7 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		6ED09A4127EA533100C56F6B /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6ED09A4027EA533100C56F6B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
