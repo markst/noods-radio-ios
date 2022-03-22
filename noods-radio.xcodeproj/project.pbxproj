@@ -6,6 +6,12 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6E583A5827EA34100063B0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E583A5727EA34100063B0D7 /* LaunchScreen.storyboard */; };
+		6E583A5A27EA34160063B0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E583A5927EA34160063B0D7 /* Assets.xcassets */; };
+		6E583A5F27EA34230063B0D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583A5C27EA34230063B0D7 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6E583A2227EA224E0063B0D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,10 @@
 		6E583A0B27EA224E0063B0D7 /* noods-radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "noods-radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E583A2127EA224E0063B0D7 /* noods-radioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "noods-radioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E583A2B27EA224E0063B0D7 /* noods-radioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "noods-radioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E583A5727EA34100063B0D7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E583A5927EA34160063B0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E583A5B27EA34220063B0D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E583A5C27EA34230063B0D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +67,13 @@
 		6E583A0227EA224D0063B0D7 = {
 			isa = PBXGroup;
 			children = (
-				6E583A0C27EA224E0063B0D7 /* Products */,
+				6E583A5227EA33540063B0D7 /* Application */,
+				6E583A5327EA33650063B0D7 /* Screens */,
+				6E583A5527EA336F0063B0D7 /* Resources */,
+				6E583A5627EA33750063B0D7 /* Supporting Files */,
+				6E583A5427EA336A0063B0D7 /* Library */,
 				6E583A4527EA285C0063B0D7 /* Frameworks */,
+				6E583A0C27EA224E0063B0D7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +92,45 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E583A5227EA33540063B0D7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6E583A5C27EA34230063B0D7 /* AppDelegate.swift */,
+				6E583A5B27EA34220063B0D7 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6E583A5327EA33650063B0D7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6E583A5427EA336A0063B0D7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6E583A5527EA336F0063B0D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E583A5927EA34160063B0D7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E583A5627EA33750063B0D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E583A5727EA34100063B0D7 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +203,7 @@
 				TargetAttributes = {
 					6E583A0A27EA224D0063B0D7 = {
 						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
 					};
 					6E583A2027EA224E0063B0D7 = {
 						CreatedOnToolsVersion = 13.2;
@@ -187,6 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E583A5A27EA34160063B0D7 /* Assets.xcassets in Resources */,
+				6E583A5827EA34100063B0D7 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E583A5F27EA34230063B0D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,15 +423,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R4JGMPEV35;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = noodsradio/Info.plist;
+				INFOPLIST_FILE = Application/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Noods;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,6 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.noodsradio.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -394,15 +453,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R4JGMPEV35;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = noodsradio/Info.plist;
+				INFOPLIST_FILE = Application/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Noods;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -421,6 +480,7 @@
 		6E583A3927EA224E0063B0D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -440,6 +500,7 @@
 		6E583A3A27EA224E0063B0D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -459,6 +520,7 @@
 		6E583A3C27EA224E0063B0D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R4JGMPEV35;
@@ -476,6 +538,7 @@
 		6E583A3D27EA224E0063B0D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R4JGMPEV35;
