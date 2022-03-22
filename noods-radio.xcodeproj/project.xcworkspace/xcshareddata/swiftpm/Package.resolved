@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "UIKitPlus",
+        "repositoryURL": "https://github.com/MihaelIsaev/UIKitPlus",
+        "state": {
+          "branch": "master",
+          "revision": "b3df323fd07b6760173a85ab2930be3a88c9f998",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
