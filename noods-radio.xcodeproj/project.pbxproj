@@ -33,6 +33,7 @@
 		6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */; };
 		6ED09A4727EA556F00C56F6B /* NoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */; };
 		6ED09A4827EA556F00C56F6B /* NoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB727EA4FAD0063B0D7 /* NoodsUITests.swift */; };
+		6EFEEA7627EB4C47001586F4 /* RxSwiftUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 6EFEEA7527EB4C47001586F4 /* RxSwiftUtilities */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 				6E4928C527EA68DC00F88D8C /* RxDataSources in Frameworks */,
 				6E583AA427EA3CF80063B0D7 /* RxMoya in Frameworks */,
 				6E583A6327EA35D40063B0D7 /* UIKitPlus in Frameworks */,
+				6EFEEA7627EB4C47001586F4 /* RxSwiftUtilities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +312,7 @@
 				6E583A6227EA35D40063B0D7 /* UIKitPlus */,
 				6E583AA327EA3CF80063B0D7 /* RxMoya */,
 				6E4928C427EA68DC00F88D8C /* RxDataSources */,
+				6EFEEA7527EB4C47001586F4 /* RxSwiftUtilities */,
 			);
 			productName = noodsradio;
 			productReference = 6E583A0B27EA224E0063B0D7 /* NoodsRadio.app */;
@@ -392,6 +395,7 @@
 				6E583AA227EA3CF80063B0D7 /* XCRemoteSwiftPackageReference "Moya" */,
 				6ED09A4027EA533100C56F6B /* XCRemoteSwiftPackageReference "RxSwift" */,
 				6E4928C327EA68DC00F88D8C /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				6EFEEA7427EB4C47001586F4 /* XCRemoteSwiftPackageReference "RxSwiftUtilities" */,
 			);
 			productRefGroup = 6E583A0C27EA224E0063B0D7 /* Products */;
 			projectDirPath = "";
@@ -815,6 +819,14 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		6EFEEA7427EB4C47001586F4 /* XCRemoteSwiftPackageReference "RxSwiftUtilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxSwiftUtilities.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -837,6 +849,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6ED09A4027EA533100C56F6B /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxBlocking;
+		};
+		6EFEEA7527EB4C47001586F4 /* RxSwiftUtilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EFEEA7427EB4C47001586F4 /* XCRemoteSwiftPackageReference "RxSwiftUtilities" */;
+			productName = RxSwiftUtilities;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

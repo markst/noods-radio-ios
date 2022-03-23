@@ -38,6 +38,15 @@
         }
       },
       {
+        "package": "RxSwiftUtilities",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxSwiftUtilities.git",
+        "state": {
+          "branch": "master",
+          "revision": "79681750878009776b5fe17223cbbe89a264d3e6",
+          "version": null
+        }
+      },
+      {
         "package": "UIKitPlus",
         "repositoryURL": "https://github.com/MihaelIsaev/UIKitPlus",
         "state": {
