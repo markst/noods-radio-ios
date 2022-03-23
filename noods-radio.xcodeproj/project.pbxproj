@@ -29,6 +29,7 @@
 		6E5FA92627EB3F13003B8910 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FA92527EB3F13003B8910 /* MockRepository.swift */; };
 		6E5FA92827EB3F32003B8910 /* ShowViewModel+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FA92727EB3F32003B8910 /* ShowViewModel+Mock.swift */; };
 		6E5FA92A27EB3F63003B8910 /* Show+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FA92927EB3F63003B8910 /* Show+Mock.swift */; };
+		6EB4985D27EB9A530059DE89 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4985C27EB9A530059DE89 /* Fonts */; };
 		6ED09A4227EA533100C56F6B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 6ED09A4127EA533100C56F6B /* RxBlocking */; };
 		6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */; };
 		6ED09A4727EA556F00C56F6B /* NoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */; };
@@ -84,6 +85,7 @@
 		6E5FA92527EB3F13003B8910 /* MockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
 		6E5FA92727EB3F32003B8910 /* ShowViewModel+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowViewModel+Mock.swift"; sourceTree = "<group>"; };
 		6E5FA92927EB3F63003B8910 /* Show+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show+Mock.swift"; sourceTree = "<group>"; };
+		6EB4985C27EB9A530059DE89 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		6ED09A3E27EA514000C56F6B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodsRadioTests.swift; sourceTree = "<group>"; };
 		6EFEEA7B27EB4FBF001586F4 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				6E583A5927EA34160063B0D7 /* Assets.xcassets */,
+				6EB4985C27EB9A530059DE89 /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB4985D27EB9A530059DE89 /* Fonts in Resources */,
 				6E583A5A27EA34160063B0D7 /* Assets.xcassets in Resources */,
 				6E583A5827EA34100063B0D7 /* LaunchScreen.storyboard in Resources */,
 			);
