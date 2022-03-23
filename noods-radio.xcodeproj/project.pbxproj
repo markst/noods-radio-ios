@@ -35,6 +35,10 @@
 		6ED09A4827EA556F00C56F6B /* NoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB727EA4FAD0063B0D7 /* NoodsUITests.swift */; };
 		6EFEEA7627EB4C47001586F4 /* RxSwiftUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 6EFEEA7527EB4C47001586F4 /* RxSwiftUtilities */; };
 		6EFEEA7927EB4E73001586F4 /* RxFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 6EFEEA7827EB4E73001586F4 /* RxFlow */; };
+		6EFEEA7C27EB4FBF001586F4 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEEA7B27EB4FBF001586F4 /* AppFlow.swift */; };
+		6EFEEA7E27EB63EB001586F4 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEEA7D27EB63EB001586F4 /* AppStepper.swift */; };
+		6EFEEA8027EB6411001586F4 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEEA7F27EB6411001586F4 /* AppServices.swift */; };
+		6EFEEA8227EB6444001586F4 /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEEA8127EB6444001586F4 /* AppStep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,10 @@
 		6E5FA92927EB3F63003B8910 /* Show+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show+Mock.swift"; sourceTree = "<group>"; };
 		6ED09A3E27EA514000C56F6B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodsRadioTests.swift; sourceTree = "<group>"; };
+		6EFEEA7B27EB4FBF001586F4 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		6EFEEA7D27EB63EB001586F4 /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
+		6EFEEA7F27EB6411001586F4 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		6EFEEA8127EB6444001586F4 /* AppStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +138,9 @@
 			children = (
 				6E583A5227EA33540063B0D7 /* Application */,
 				6E583A5327EA33650063B0D7 /* Screens */,
+				6E583A5427EA336A0063B0D7 /* Library */,
 				6E583A5527EA336F0063B0D7 /* Resources */,
 				6E583A5627EA33750063B0D7 /* Supporting Files */,
-				6E583A5427EA336A0063B0D7 /* Library */,
 				6E583AB127EA4F440063B0D7 /* Tests */,
 				6E583A0C27EA224E0063B0D7 /* Products */,
 				6ED09A3D27EA514000C56F6B /* Frameworks */,
@@ -172,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				6E583AAE27EA4E4B0063B0D7 /* Extensions */,
+				6EFEEA7A27EB4F8A001586F4 /* Flows */,
 				6E5FA91C27EB3DEF003B8910 /* Layout */,
 				6E5FA92427EB3F10003B8910 /* Mock */,
 				6E583AA527EA3F010063B0D7 /* Models */,
@@ -207,8 +216,9 @@
 		6E583AA827EA4BFA0063B0D7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				6E583AAA27EA4C1F0063B0D7 /* Repository.swift */,
+				6EFEEA7F27EB6411001586F4 /* AppServices.swift */,
 				6E583AAC27EA4C3C0063B0D7 /* PanelApi.swift */,
+				6E583AAA27EA4C1F0063B0D7 /* Repository.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -292,6 +302,16 @@
 				6ED09A3E27EA514000C56F6B /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EFEEA7A27EB4F8A001586F4 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				6EFEEA7B27EB4FBF001586F4 /* AppFlow.swift */,
+				6EFEEA8127EB6444001586F4 /* AppStep.swift */,
+				6EFEEA7D27EB63EB001586F4 /* AppStepper.swift */,
+			);
+			path = Flows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,13 +465,17 @@
 			files = (
 				6E5FA92A27EB3F63003B8910 /* Show+Mock.swift in Sources */,
 				6E583AA727EA3F0D0063B0D7 /* Show.swift in Sources */,
+				6EFEEA8027EB6411001586F4 /* AppServices.swift in Sources */,
 				6E5FA92627EB3F13003B8910 /* MockRepository.swift in Sources */,
 				6E5FA91927EB3DA6003B8910 /* Then.swift in Sources */,
+				6EFEEA8227EB6444001586F4 /* AppStep.swift in Sources */,
 				6E5FA91527EA88A6003B8910 /* ShowCollectionViewCell.swift in Sources */,
+				6EFEEA7E27EB63EB001586F4 /* AppStepper.swift in Sources */,
 				6E5FA92327EB3EF7003B8910 /* ShowViewModel.swift in Sources */,
 				6E5FA91E27EB3DF3003B8910 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				6E5FA92827EB3F32003B8910 /* ShowViewModel+Mock.swift in Sources */,
 				6E4928C227EA673100F88D8C /* ShowsListViewController.swift in Sources */,
+				6EFEEA7C27EB4FBF001586F4 /* AppFlow.swift in Sources */,
 				6E583AB027EA4E520063B0D7 /* JSONDecoder+Extensions.swift in Sources */,
 				6E5FA91B27EB3DC0003B8910 /* FontIdentifier.swift in Sources */,
 				6E583A5F27EA34230063B0D7 /* AppDelegate.swift in Sources */,

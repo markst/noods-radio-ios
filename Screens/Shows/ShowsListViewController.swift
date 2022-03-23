@@ -78,10 +78,9 @@ class ShowsListViewController: ViewController {
             collectionView.rx
                 .modelSelected(ShowViewModel.self)
                 .delay(.milliseconds(120), scheduler: MainScheduler.asyncInstance)
-                .bind { _ in
-                    // RxFlow / self.performSegue(withIdentifier: "ShowDetail", sender: item)
+                .bind { [unowned self] item in
+                    viewModel.pick(showId: item.identity)
                 })
-
         disposeBag.insert(
             viewModel.activityIndicator
                 .asDriver()
