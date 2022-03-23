@@ -82,13 +82,12 @@ class ShowsListViewController: ViewController {
                     // RxFlow / self.performSegue(withIdentifier: "ShowDetail", sender: item)
                 })
 
-        //    disposeBag.insert(
-        //      viewModel.activityIndicator
-        //        .asDriver()
-        //        .drive(activityIndicator.rx.isAnimating)
-        //    )
+        disposeBag.insert(
+            viewModel.activityIndicator
+                .asDriver()
+                .drive(collectionView.refreshControl!.rx.isRefreshing)
+        )
     }
-
 }
 
 
