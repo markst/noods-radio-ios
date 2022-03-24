@@ -12,19 +12,22 @@ class ShowCollectionViewCell: UCollectionCell {
         UImage(url: $viewModel.map({ $0?.image }))
           .background(.gray)
           .aspectRatio()
+          .compressionResistance(y: .required)
           .mode(.scaleAspectFill)
           .corners(4, [])
           .masksToBounds()
         UText($viewModel.map({ $0?.title ?? "" }))
-          .font(.helveticaNeueRegular, 12)
+          .font(.hkGroteskBold, 18)
           .multiline()
           .alignment(.left)
           .color(0x000000)
+          .compressionResistance(y: .required)
         UText($viewModel.map({ $0?.date ?? "" }))
-          .font(.helveticaNeueRegular, 10)
+          .font(.hkGroteskSemiBold, 14)
           .lines(1)
           .alignment(.left)
           .color(0x828282)
+          .compressionResistance(y: .required)
         UCollection(LeftAlignedCollectionViewFlowLayout()
                       .estimatedItemSize(18, 18)
                       .scrollDirection(.vertical)
@@ -35,11 +38,27 @@ class ShowCollectionViewCell: UCollectionCell {
             GenreTagCell($0)
           }
         }.background(.white)
+          .compressionResistance(y: .required)
           .height(>=60)
       }
       .spacing(8)
       .edgesToSuperview()
     }
+  }
+
+  // MARK: - UICollectionReusableView
+
+  override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
+    let attr = super.preferredLayoutAttributesFitting(layoutAttributes)
+
+    let targetSize = CGSize(width: layoutAttributes.frame.width, height: 0)
+    let autoLayoutSize = contentView.systemLayoutSizeFitting(
+      targetSize,
+      withHorizontalFittingPriority: .required,
+      verticalFittingPriority: .fittingSizeLevel)
+
+    attr.frame = .init(origin: attr.frame.origin, size: autoLayoutSize)
+    return attr
   }
 }
 
@@ -55,12 +74,12 @@ struct MessageMyView_Preview: PreviewProvider, DeclarativePreview {
     Preview {
       ShowCollectionViewCell(frame: .init(
         origin: .zero,
-        size: .init(width: 200, height: 335)))
+        size: .zero))
         .background(.white)
         .do({ $0.viewModel = ShowViewModel.mock })
-          }
+    }
     .colorScheme(.light)
-    .layout(.fixed(width: 200, height: 335))
+    .layout(.sizeThatFits)
     .language(.en)
   }
 }

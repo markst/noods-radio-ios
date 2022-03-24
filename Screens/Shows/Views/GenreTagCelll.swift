@@ -19,7 +19,7 @@ class GenreTagCell: UView {
         UText(genre)
           .color(0x828282)
           .edgesToSuperview(4)
-          .font(.helveticaNeueRegular, 9)
+          .font(.hkGroteskSemiBold, 10)
       }
       .corners(2, [])
       .border(0.5, 0x828282)

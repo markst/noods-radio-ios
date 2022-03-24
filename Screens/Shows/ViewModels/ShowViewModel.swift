@@ -13,6 +13,6 @@ struct ShowViewModel: Equatable, IdentifiableType {
     self.title = show.title
     self.date = show.date.form()
     self.image = show.artworkSmall
-    self.genres = show.genreTags
+    self.genres = show.genreTags.map({ $0.uppercased() })
   }
 }

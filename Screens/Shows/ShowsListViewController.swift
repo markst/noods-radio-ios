@@ -27,11 +27,14 @@ class ShowsListViewController: ViewController {
 
     // MARK: -
 
+    @UState var cellSize: CGSize = .init(width: 320, height: .max)
+
     lazy var collectionView = UCollectionView(
         UCollectionViewFlowLayout()
-            .itemSize(200, 320)
+            .itemSize(UICollectionViewFlowLayout.automaticSize)
+            .estimatedItemSize(cellSize)
             .scrollDirection(.vertical)
-            .sectionInset(16))
+            .sectionInset(40))
         .register(ShowCollectionViewCell.self)
         .refreshControl(URefreshControl().onRefresh { [unowned self] in
             viewModel.refresh.accept(())
@@ -44,16 +47,20 @@ class ShowsListViewController: ViewController {
 
         title = "Shows"
 
+        onViewDidLayoutSubviews { [unowned self] in
+            cellSize = .init(width: view.frame.width - 80, height: 1000)
+            // Update `estimatedItemSize` directly:
+            (collectionView.collectionViewLayout as? UICollectionViewFlowLayout)?
+                .estimatedItemSize = cellSize
+        }
         body {
             collectionView
                 .background(.white)
                 .topToSuperview(0, safeArea: true)
                 .edgesToSuperview(leading: 0, trailing: 0, bottom: 0)
         }
-
         bindView()
     }
-
 
     func bindView() {
         let dataSource = RxCollectionViewSectionedAnimatedDataSource<AnimatableSectionModel<String, ShowViewModel>>(
