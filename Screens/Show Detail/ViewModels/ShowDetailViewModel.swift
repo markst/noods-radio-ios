@@ -32,7 +32,7 @@ struct ShowDetailViewModel {
 
 extension ShowDetailViewModel: Stepper {
   var initialStep: Step {
-    return AppStep.show(withId: identity)
+    return AppStep.shows
   }
 
   public func playShow(url: URL) {

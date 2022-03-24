@@ -25,8 +25,8 @@ class AppFlow: Flow {
     switch step as? AppStep {
     case .shows:
       return navigateToShowList()
-    case .show(let id):
-      return navigateToShowDetail(with: id)
+    case .show(let show):
+      return navigateToShowDetail(with: show)
     case .play(let url):
       return navigateToMixCloudPlayer(with: url)
     default:
@@ -46,10 +46,11 @@ class AppFlow: Flow {
     )
   }
 
-  private func navigateToShowDetail(with id: String) -> FlowContributors {
+  private func navigateToShowDetail(with show: ShowViewModel) -> FlowContributors {
     let viewController = ShowDetailViewController(
-      viewModel: .init(identity: id, repository: services.repository)
+      viewModel: .init(identity: show.identity, repository: services.repository)
     )
+    viewController.detailView.show = show
     rootViewController.pushViewController(viewController, animated: true)
 
     return .one(flowContributor: .contribute(

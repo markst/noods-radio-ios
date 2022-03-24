@@ -89,7 +89,7 @@ class ShowsListViewController: ViewController {
                 .modelSelected(ShowViewModel.self)
                 .debounce(.milliseconds(120), scheduler: MainScheduler.asyncInstance)
                 .bind { [unowned self] item in
-                    viewModel.pick(showId: item.identity)
+                    viewModel.pick(show: item)
                 })
         disposeBag.insert(
             viewModel.activityIndicator

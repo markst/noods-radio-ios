@@ -3,6 +3,6 @@ import Foundation
 
 enum AppStep: Step {
   case shows
-  case show(withId: String)
+  case show(ShowViewModel)
   case play(url: URL)
 }

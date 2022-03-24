@@ -39,7 +39,7 @@ extension ShowsListViewModel: Stepper {
     return AppStep.shows
   }
   
-  public func pick(showId: String) {
-    self.steps.accept(AppStep.show(withId: showId))
+  public func pick(show: ShowViewModel) {
+    self.steps.accept(AppStep.show(show))
   }
 }
