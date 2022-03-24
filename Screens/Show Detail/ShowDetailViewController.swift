@@ -74,6 +74,12 @@ class ShowDetailViewController: ViewController {
       .observe(on: MainScheduler.asyncInstance)
       .bind(to: detailView.refreshControl.rx.isRefreshing)
       .disposed(by: disposeBag)
+    // Bind loading indicator:
+    detailView.viewModel?.activityIndicator
+      .asObservable()
+      .observe(on: MainScheduler.asyncInstance)
+      .bind(to: detailView.playButton.rx.isAnimating)
+      .disposed(by: disposeBag)
 
     // Bind play button:
     detailView.playButton

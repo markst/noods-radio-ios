@@ -4,7 +4,7 @@ class ShowDetailView: UView {
   
   var refreshControl: URefreshControl = URefreshControl()
   var viewModel: ShowDetailViewModel?
-  let playButton = UButton()
+  let playButton = LoadingButton()
   
   @UState var show: ShowViewModel?
   
