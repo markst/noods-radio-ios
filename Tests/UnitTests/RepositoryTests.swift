@@ -6,7 +6,6 @@ import RxBlocking
 class RepositoryTests: XCTestCase {
 
   var repository: NoodsRepository = Repository()
-  var mockRepository: NoodsRepository = MockRepository()
 
   override func setUpWithError() throws {
 
@@ -25,19 +24,6 @@ class RepositoryTests: XCTestCase {
 
     XCTAssertNotNil(shows)
     XCTAssertTrue(shows.count > 0)
-  }
-
-  func testShowsMock() throws {
-    let shows = try mockRepository
-      .shows()
-      .debug()
-      .toBlocking()
-      .toArray()
-
-    XCTAssertNotNil(shows)
-
-    XCTAssertEqual(shows[0].first?.id, "123")
-    XCTAssertEqual(shows[0].first?.title, "Test")
   }
 
   func testShowDetailOnline() throws {
@@ -60,17 +46,6 @@ class RepositoryTests: XCTestCase {
     XCTAssertThrowsError(try showDetail.first())
   }
 
-  func testShowDetailMock() throws {
-    let showDetail = try mockRepository
-      .showDetail(id: "123")
-      .debug()
-      .toBlocking()
-      .first()
-
-    XCTAssertNotNil(showDetail)
-    XCTAssertEqual(showDetail?.title, "123")
-    XCTAssertNotEqual(showDetail?.title, "132")
-  }
 
   func testShowsOnlinePerformance() throws {
     self.measure {
