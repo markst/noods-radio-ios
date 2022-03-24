@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "Atributika",
+        "repositoryURL": "https://github.com/psharanda/Atributika.git",
+        "state": {
+          "branch": null,
+          "revision": "d018897afbd55d9065ef859650585bac890ada7e",
+          "version": "4.10.1"
+        }
+      },
+      {
         "package": "Moya",
         "repositoryURL": "https://github.com/markst/Moya.git",
         "state": {
