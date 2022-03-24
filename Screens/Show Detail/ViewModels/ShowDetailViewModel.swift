@@ -1,6 +1,8 @@
 import RxRelay
 import RxSwift
 import RxSwiftUtilities
+import RxFlow
+import Foundation
 
 struct ShowDetailViewModel {
 
@@ -9,6 +11,7 @@ struct ShowDetailViewModel {
   let repository: NoodsRepository
   let refresh = PublishRelay<Void>()
   let activityIndicator = ActivityIndicator()
+  let steps = PublishRelay<Step>()
 
   // MARK: - Init
 
@@ -24,5 +27,15 @@ struct ShowDetailViewModel {
       .showDetail(id: identity)
       .trackActivity(activityIndicator)
       .map(ShowViewModel.init)
+  }
+}
+
+extension ShowDetailViewModel: Stepper {
+  var initialStep: Step {
+    return AppStep.show(withId: identity)
+  }
+
+  public func playShow(url: URL) {
+    self.steps.accept(AppStep.play(url: url))
   }
 }

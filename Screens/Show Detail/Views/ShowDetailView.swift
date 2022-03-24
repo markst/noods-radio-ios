@@ -4,6 +4,7 @@ class ShowDetailView: UView {
   
   var refreshControl: URefreshControl = URefreshControl()
   var viewModel: ShowDetailViewModel?
+  let playButton = UButton()
   
   @UState var show: ShowViewModel?
   
@@ -21,7 +22,7 @@ class ShowDetailView: UView {
             UView() {
               UHStack() {
                 UView() {
-                  UButton()
+                  playButton
                     .image(.play)
                     .centerInSuperview(x: 4, y: 0)
                 }
@@ -62,7 +63,8 @@ class ShowDetailView: UView {
               .alignment(.center)
             }
             .background(.white)
-            .shadow(.black, opacity: 0.07, x: 0, y: 0, radius: 6)
+            .corners(4, [.topLeft, .topRight])
+            .shadow(.black, opacity: 0.2, x: 0, y: 0, radius: 6)
             .height(>=96)
             .edgesToSuperview(leading: 20, trailing: -20, bottom: 0)
           }

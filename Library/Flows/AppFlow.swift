@@ -1,7 +1,7 @@
 import RxFlow
 import RxRelay
 import RxSwift
-
+import SafariServices
 import UIKit.UINavigationController
 import UIKitPlus
 
@@ -27,8 +27,8 @@ class AppFlow: Flow {
       return navigateToShowList()
     case .show(let id):
       return navigateToShowDetail(with: id)
-    case .player:
-      return .none
+    case .play(let url):
+      return navigateToMixCloudPlayer(with: url)
     default:
       return .none
     }
@@ -54,6 +54,20 @@ class AppFlow: Flow {
 
     return .one(flowContributor: .contribute(
       withNextPresentable: viewController,
-      withNextStepper: OneStepper(withSingleStep: AppStep.show(withId: id))))
+      withNextStepper: viewController.detailView.viewModel!)
+    )
+  }
+
+  private func navigateToMixCloudPlayer(with url: URL) -> FlowContributors {
+    let safariViewController = SFSafariViewController(
+      url: url
+    )
+    safariViewController.modalPresentationStyle = .formSheet
+    rootViewController.present(
+      safariViewController,
+      animated: true,
+      completion: nil
+    )
+    return .none
   }
 }

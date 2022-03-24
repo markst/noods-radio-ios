@@ -11,6 +11,7 @@ struct ShowViewModel: Equatable, IdentifiableType {
   // Show detail:
   let descriptio: NSAttributedString?
   let tracklist: NSAttributedString?
+  let mixcloud: URL?
 
   init(show: Show) {
     self.identity = show.id
@@ -21,6 +22,7 @@ struct ShowViewModel: Equatable, IdentifiableType {
 
     self.descriptio = nil
     self.tracklist = nil
+    self.mixcloud = nil
   }
 
   init(show: ShowDetail) {
@@ -32,5 +34,6 @@ struct ShowViewModel: Equatable, IdentifiableType {
 
     self.descriptio = show.descriptio?.attributedString ?? .init(string: "")
     self.tracklist = show.tracklist?.attributedString ?? .init(string: "")
+    self.mixcloud = try? show.mixcloud?.asURL()
   }
 }

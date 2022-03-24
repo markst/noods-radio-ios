@@ -16,5 +16,6 @@ extension ShowViewModel {
     self.genres = genres
     self.descriptio = nil
     self.tracklist = nil
+    self.mixcloud = nil
   }
 }

@@ -67,11 +67,24 @@ class ShowDetailViewController: ViewController {
           detailView?.display(error)
         })
       .disposed(by: disposeBag)
+
     // Bind refresh control:
     detailView.viewModel?.activityIndicator
       .asObservable()
       .observe(on: MainScheduler.asyncInstance)
       .bind(to: detailView.refreshControl.rx.isRefreshing)
+      .disposed(by: disposeBag)
+
+    // Bind play button:
+    detailView.playButton
+      .rx.tap
+      .compactMap({ [weak self] in
+        self?.detailView.show?.mixcloud
+      })
+      .bind { [weak self] url in
+        self?.detailView.viewModel?
+          .playShow(url: url)
+      }
       .disposed(by: disposeBag)
   }
 }
