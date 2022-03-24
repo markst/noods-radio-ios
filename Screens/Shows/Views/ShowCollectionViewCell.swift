@@ -75,17 +75,17 @@ import SwiftUI
 extension ShowCollectionViewCell: Then { }
 
 @available(iOS 13.0, *)
-struct MessageMyView_Preview: PreviewProvider, DeclarativePreview {
+struct ShowCollectionViewCell_Preview: PreviewProvider, DeclarativePreview {
   static var preview: Preview {
     Preview {
       ShowCollectionViewCell(frame: .init(
         origin: .zero,
-        size: .zero))
+        size: .init(width: 300, height: 500)))
         .background(.white)
         .do({ $0.viewModel = ShowViewModel.mock })
     }
     .colorScheme(.light)
-    .layout(.sizeThatFits)
+    .layout(.fixed(width: 300, height: 500))
     .language(.en)
   }
 }

@@ -47,6 +47,9 @@ class ShowsListViewController: ViewController {
 
         title = "Shows"
 
+        onViewWillAppear { [weak self] /*animated*/ in
+          self?.navigationController?.isNavigationBarHidden = true
+        }
         onViewDidLayoutSubviews { [unowned self] in
             cellSize = .init(width: view.frame.width - 80, height: 1000)
             // Update `estimatedItemSize` directly:
@@ -84,7 +87,7 @@ class ShowsListViewController: ViewController {
                 .bind(to: collectionView.rx.items(dataSource: dataSource)),
             collectionView.rx
                 .modelSelected(ShowViewModel.self)
-                .delay(.milliseconds(120), scheduler: MainScheduler.asyncInstance)
+                .debounce(.milliseconds(120), scheduler: MainScheduler.asyncInstance)
                 .bind { [unowned self] item in
                     viewModel.pick(showId: item.identity)
                 })
@@ -113,7 +116,7 @@ extension ShowsListViewController {
 
 
 @available(iOS 13.0, *)
-struct DiffableCollectionViewController_Preview: PreviewProvider, DeclarativePreview {
+struct ShowsListViewController_Preview: PreviewProvider, DeclarativePreview {
     static var preview: Preview {
         Preview {
             ShowsListViewController.mock

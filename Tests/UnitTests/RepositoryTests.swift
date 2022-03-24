@@ -42,7 +42,7 @@ class RepositoryTests: XCTestCase {
 
   func testShowDetailOnline() throws {
     let showDetail = try repository
-      .showDetail(id: "through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22")
+      .showDetail(id: "shows/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22")
       .debug()
       .toBlocking()
       .first()
@@ -53,7 +53,7 @@ class RepositoryTests: XCTestCase {
 
   func testShowDetailOnline404() throws {
     let showDetail = repository
-      .showDetail(id: "through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-21")
+      .showDetail(id: "shows/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-21")
       .debug()
       .toBlocking()
 
