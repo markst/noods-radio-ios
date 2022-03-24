@@ -40,7 +40,7 @@ extension PanelApi: TargetType {
     case .featured(let page):
       return "shows/featured.json/page:\(page)"
     case .show(let id):
-      return "\(id).json"
+      return "shows/\(id).json"
     }
   }
   
