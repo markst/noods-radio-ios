@@ -46,6 +46,12 @@ class ShowCollectionViewCell: UCollectionCell {
     }
   }
 
+  override var isHighlighted: Bool {
+    didSet {
+      contentView.alpha = isHighlighted ? 0.5 : 1.0
+    }
+  }
+  
   // MARK: - UICollectionReusableView
 
   override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
