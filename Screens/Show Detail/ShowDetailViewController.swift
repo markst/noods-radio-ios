@@ -22,7 +22,7 @@ class ShowDetailViewController: ViewController {
     print(#file, #function)
   }
 
-  // MARK: -
+  // MARK: - View Setup
 
   internal let detailView = ShowDetailView()
   internal let disposeBag = DisposeBag()
@@ -31,6 +31,7 @@ class ShowDetailViewController: ViewController {
     super.buildUI()
 
     onViewWillAppear { [weak self] /*animated*/ in
+      self?.detailView.viewModel?.refresh.accept(())
       self?.navigationController?.setNavigationBarHidden(false, animated: true)
     }
 
@@ -47,11 +48,11 @@ class ShowDetailViewController: ViewController {
 
     bindView()
   }
+  
 
   func bindView() {
     // Bind detail request:
     detailView.viewModel?.refresh
-      .startWith(())
       .flatMap { [unowned self] in
         detailView.viewModel?.showDetail() ??
           .error(ShowDetailError.failedRequest)
@@ -63,7 +64,7 @@ class ShowDetailViewController: ViewController {
         },
         onError: { [weak detailView]  error in
           print("Error: \(error)")
-          detailView?.display(error: error)
+          detailView?.display(error)
         })
       .disposed(by: disposeBag)
     // Bind refresh control:

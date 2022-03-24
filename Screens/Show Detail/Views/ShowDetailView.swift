@@ -20,12 +20,15 @@ class ShowDetailView: UView {
               .edgesToSuperview()
             UView() {
               UHStack() {
-                UButton()
-                  .aspectRatio()
-                  .circle()
-                  .background(.black)
-                  .color(.black / .white)
-                  .height(48)
+                UView() {
+                  UButton()
+                    .image(.play)
+                    .centerInSuperview(x: 4, y: 0)
+                }
+                .aspectRatio()
+                .circle()
+                .background(.black)
+                .height(60)
                 UVStack {
                   UText($show.map({ $0?.title ?? "" }))
                     .font(.hkGroteskBold, 18)
@@ -40,16 +43,17 @@ class ShowDetailView: UView {
                     .color(0x828282)
                     .compressionResistance(y: .required)
                   UCollection(LeftAlignedCollectionViewFlowLayout()
-                                .estimatedItemSize(18, 18)
-                                .scrollDirection(.vertical)
-                                .minimumLineSpacing(4)
-                                .minimumInteritemSpacing(4)
-                                .sectionInset(0)) {
-                    UForEach($show.map({ $0?.genres ?? [] })) {
-                      GenreTagCell($0)
+                    .estimatedItemSize(18, 18)
+                    .scrollDirection(.vertical)
+                    .minimumLineSpacing(4)
+                    .minimumInteritemSpacing(6)
+                    .sectionInset(0)) {
+                      UForEach($show.map({ $0?.genres ?? [] })) {
+                        GenreTagCell($0)
+                      }
                     }
-                  }.height(>=30)
-                    .do({ ($0.subviews.first as? UIScrollView)?.isScrollEnabled = false })
+                    .scrollEnabled(false)
+                    .height(>=30)
                 }
                 .spacing(6)
               }
@@ -58,6 +62,7 @@ class ShowDetailView: UView {
               .alignment(.center)
             }
             .background(.white)
+            .shadow(.black, opacity: 0.07, x: 0, y: 0, radius: 6)
             .height(>=96)
             .edgesToSuperview(leading: 20, trailing: -20, bottom: 0)
           }
@@ -78,6 +83,7 @@ class ShowDetailView: UView {
               .background(.black)
               .edgesToSuperview(leading: 20, trailing: -20, bottom: 0)
           }
+          .hidden($show.map { $0?.descriptio?.string.isEmpty == true })
           // Tracklist:
           UView() {
             UVStack() {
@@ -97,6 +103,7 @@ class ShowDetailView: UView {
             .spacing(20)
             .edgesToSuperview(20)
           }
+          .hidden($show.map { $0?.tracklist?.string.isEmpty == true })
         }
         .spacing(10)
         .widthToSuperview(multipliedBy: 1.0, priority: .defaultHigh)
@@ -110,15 +117,14 @@ class ShowDetailView: UView {
   }
   
   // MARK: Functions
-  
-  func display(error: Error) {
+
+  func display(_ error: Error) {
     body {
       UText(error.localizedDescription)
         .centerInSuperview()
     }
   }
 }
-
 
 #if canImport(SwiftUI)
 

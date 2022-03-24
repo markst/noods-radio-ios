@@ -11,7 +11,12 @@ extension ShowDetail {
     genreTags: [
       "Rock",
       "Folk",
-      "Punk"
+      "Punk",
+      "Dub",
+      "Roots",
+      "Reggae",
+      "Dancehall",
+      "Rocksteady"
     ],
     tracklist: .init(html: "<p>DBX -   2 People<br />\nZibba   -   Missionary<br />\nMr Virgo featuring Tilesaha -   Something Real<br />\nVeteran &amp; Shaun Burgin  -   Apocalypse<br />\nDJ Q featuring MC Bonez -   You Wot<br />\nDJ Q    -   Ins-True-Mental<br />\nH Two O featuring Platnum   -   What Are You Gonna Do<br />\nNay Nay vs T2   -   Monterous Riddem<br />\nT2 featuring Jodie Aysha    -   Heartbroken<br />\nDexplicit   -   Bullcake<br />\nHannah Wants&amp; Chris Lorenzo -   Kneadin<br />\nRoyal-T -   Cool Down (DJ Q Remix)<br />\nDizzee Rascal   -   Bassline Junkie<br />\nTQD -   Bass Fest<br />\nTS7 -   Carbon Flare<br />\nBad Boy Chiller Crew    -   Guns Up<br />\nHoly Goof   -   Cheatin'<br />\nFlava D -   Springloaded</p>"),
     guestmix: false,
