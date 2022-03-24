@@ -31,6 +31,7 @@
 		6E5FA92A27EB3F63003B8910 /* Show+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FA92927EB3F63003B8910 /* Show+Mock.swift */; };
 		6EB4985D27EB9A530059DE89 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4985C27EB9A530059DE89 /* Fonts */; };
 		6EB4985F27EC7D040059DE89 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4985E27EC7D040059DE89 /* DateFormatter+Extensions.swift */; };
+		6EB4986127EC88A00059DE89 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4986027EC88A00059DE89 /* Date+Extensions.swift */; };
 		6ED09A4227EA533100C56F6B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 6ED09A4127EA533100C56F6B /* RxBlocking */; };
 		6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */; };
 		6ED09A4727EA556F00C56F6B /* NoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */; };
@@ -88,6 +89,7 @@
 		6E5FA92927EB3F63003B8910 /* Show+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show+Mock.swift"; sourceTree = "<group>"; };
 		6EB4985C27EB9A530059DE89 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		6EB4985E27EC7D040059DE89 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		6EB4986027EC88A00059DE89 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		6ED09A3E27EA514000C56F6B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodsRadioTests.swift; sourceTree = "<group>"; };
 		6EFEEA7B27EB4FBF001586F4 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				6E5FA91A27EB3DC0003B8910 /* FontIdentifier.swift */,
 				6E583AAF27EA4E520063B0D7 /* JSONDecoder+Extensions.swift */,
 				6E5FA91827EB3DA6003B8910 /* Then.swift */,
+				6EB4986027EC88A00059DE89 /* Date+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E5FA92A27EB3F63003B8910 /* Show+Mock.swift in Sources */,
+				6EB4986127EC88A00059DE89 /* Date+Extensions.swift in Sources */,
 				6E583AA727EA3F0D0063B0D7 /* Show.swift in Sources */,
 				6EB4985F27EC7D040059DE89 /* DateFormatter+Extensions.swift in Sources */,
 				6EFEEA8027EB6411001586F4 /* AppServices.swift in Sources */,
