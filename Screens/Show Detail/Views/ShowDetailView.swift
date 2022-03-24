@@ -49,6 +49,7 @@ class ShowDetailView: UView {
                       GenreTagCell($0)
                     }
                   }.height(>=30)
+                    .do({ ($0.subviews.first as? UIScrollView)?.isScrollEnabled = false })
                 }
                 .spacing(6)
               }
