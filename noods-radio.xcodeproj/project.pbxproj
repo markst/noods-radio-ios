@@ -32,6 +32,7 @@
 		6E6B353327ED082E0004C4DE /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B353227ED082E0004C4DE /* Images.swift */; };
 		6E6B353527ED12460004C4DE /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B353427ED12460004C4DE /* LoadingButton.swift */; };
 		6E6B353727ED12940004C4DE /* LoadingButton+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B353627ED12940004C4DE /* LoadingButton+Rx.swift */; };
+		6E6B354027ED1F870004C4DE /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 6E6B353F27ED1F870004C4DE /* SnapshotTesting */; };
 		6E9A4E9F27ED042F00BD43F5 /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A4E9E27ED042F00BD43F5 /* DynamicHeightCollectionView.swift */; };
 		6EB4985D27EB9A530059DE89 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4985C27EB9A530059DE89 /* Fonts */; };
 		6EB4985F27EC7D040059DE89 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4985E27EC7D040059DE89 /* DateFormatter+Extensions.swift */; };
@@ -146,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ED09A4227EA533100C56F6B /* RxBlocking in Frameworks */,
+				6E6B354027ED1F870004C4DE /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +444,7 @@
 			name = NoodsRadioTests;
 			packageProductDependencies = (
 				6ED09A4127EA533100C56F6B /* RxBlocking */,
+				6E6B353F27ED1F870004C4DE /* SnapshotTesting */,
 			);
 			productName = noodsradioTests;
 			productReference = 6E583A2127EA224E0063B0D7 /* NoodsRadioTests.xctest */;
@@ -506,6 +509,7 @@
 				6EFEEA7427EB4C47001586F4 /* XCRemoteSwiftPackageReference "RxSwiftUtilities" */,
 				6EFEEA7727EB4E73001586F4 /* XCRemoteSwiftPackageReference "RxFlow" */,
 				6EB4988B27ECA4A70059DE89 /* XCRemoteSwiftPackageReference "Atributika" */,
+				6E6B353E27ED1F870004C4DE /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = 6E583A0C27EA224E0063B0D7 /* Products */;
 			projectDirPath = "";
@@ -941,6 +945,14 @@
 				kind = branch;
 			};
 		};
+		6E6B353E27ED1F870004C4DE /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		6EB4988B27ECA4A70059DE89 /* XCRemoteSwiftPackageReference "Atributika" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/psharanda/Atributika.git";
@@ -990,6 +1002,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6E583AA227EA3CF80063B0D7 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = RxMoya;
+		};
+		6E6B353F27ED1F870004C4DE /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E6B353E27ED1F870004C4DE /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
 		};
 		6EB4988C27ECA4A70059DE89 /* Atributika */ = {
 			isa = XCSwiftPackageProductDependency;
