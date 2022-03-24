@@ -14,5 +14,7 @@ extension ShowViewModel {
     self.date = date.formatted()
     self.image = nil
     self.genres = genres
+    self.descriptio = nil
+    self.tracklist = nil
   }
 }

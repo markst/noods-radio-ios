@@ -38,6 +38,9 @@
 		6EB4988327EC9B300059DE89 /* Resident.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4987C27EC9B300059DE89 /* Resident.swift */; };
 		6EB4988427EC9B300059DE89 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4987D27EC9B300059DE89 /* Description.swift */; };
 		6EB4988827EC9D0B0059DE89 /* ShowDetail+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4988727EC9D0B0059DE89 /* ShowDetail+Mock.swift */; };
+		6EB4988A27ECA0F50059DE89 /* ShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4988927ECA0F50059DE89 /* ShowDetailView.swift */; };
+		6EB4988D27ECA4A70059DE89 /* Atributika in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB4988C27ECA4A70059DE89 /* Atributika */; };
+		6EB4989227ECB3040059DE89 /* Description+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4989127ECB3040059DE89 /* Description+Extensions.swift */; };
 		6ED09A4227EA533100C56F6B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 6ED09A4127EA533100C56F6B /* RxBlocking */; };
 		6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */; };
 		6ED09A4727EA556F00C56F6B /* NoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */; };
@@ -102,6 +105,8 @@
 		6EB4987C27EC9B300059DE89 /* Resident.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resident.swift; sourceTree = "<group>"; };
 		6EB4987D27EC9B300059DE89 /* Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
 		6EB4988727EC9D0B0059DE89 /* ShowDetail+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowDetail+Mock.swift"; sourceTree = "<group>"; };
+		6EB4988927ECA0F50059DE89 /* ShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailView.swift; sourceTree = "<group>"; };
+		6EB4989127ECB3040059DE89 /* Description+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Description+Extensions.swift"; sourceTree = "<group>"; };
 		6ED09A3E27EA514000C56F6B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodsRadioTests.swift; sourceTree = "<group>"; };
 		6EFEEA7B27EB4FBF001586F4 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
@@ -117,6 +122,7 @@
 			files = (
 				6EFEEA7927EB4E73001586F4 /* RxFlow in Frameworks */,
 				6E4928C527EA68DC00F88D8C /* RxDataSources in Frameworks */,
+				6EB4988D27ECA4A70059DE89 /* Atributika in Frameworks */,
 				6E583AA427EA3CF80063B0D7 /* RxMoya in Frameworks */,
 				6E583A6327EA35D40063B0D7 /* UIKitPlus in Frameworks */,
 				6EFEEA7627EB4C47001586F4 /* RxSwiftUtilities in Frameworks */,
@@ -249,11 +255,12 @@
 		6E583AAE27EA4E4B0063B0D7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6EB4986027EC88A00059DE89 /* Date+Extensions.swift */,
 				6EB4985E27EC7D040059DE89 /* DateFormatter+Extensions.swift */,
+				6EB4989127ECB3040059DE89 /* Description+Extensions.swift */,
 				6E5FA91A27EB3DC0003B8910 /* FontIdentifier.swift */,
 				6E583AAF27EA4E520063B0D7 /* JSONDecoder+Extensions.swift */,
 				6E5FA91827EB3DA6003B8910 /* Then.swift */,
-				6EB4986027EC88A00059DE89 /* Date+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -335,6 +342,7 @@
 		6EB4986527EC99E10059DE89 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6EB4988927ECA0F50059DE89 /* ShowDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -387,6 +395,7 @@
 				6E4928C427EA68DC00F88D8C /* RxDataSources */,
 				6EFEEA7527EB4C47001586F4 /* RxSwiftUtilities */,
 				6EFEEA7827EB4E73001586F4 /* RxFlow */,
+				6EB4988C27ECA4A70059DE89 /* Atributika */,
 			);
 			productName = noodsradio;
 			productReference = 6E583A0B27EA224E0063B0D7 /* NoodsRadio.app */;
@@ -471,6 +480,7 @@
 				6E4928C327EA68DC00F88D8C /* XCRemoteSwiftPackageReference "RxDataSources" */,
 				6EFEEA7427EB4C47001586F4 /* XCRemoteSwiftPackageReference "RxSwiftUtilities" */,
 				6EFEEA7727EB4E73001586F4 /* XCRemoteSwiftPackageReference "RxFlow" */,
+				6EB4988B27ECA4A70059DE89 /* XCRemoteSwiftPackageReference "Atributika" */,
 			);
 			productRefGroup = 6E583A0C27EA224E0063B0D7 /* Products */;
 			projectDirPath = "";
@@ -518,6 +528,7 @@
 				6E5FA92A27EB3F63003B8910 /* Show+Mock.swift in Sources */,
 				6EB4986127EC88A00059DE89 /* Date+Extensions.swift in Sources */,
 				6E583AA727EA3F0D0063B0D7 /* Show.swift in Sources */,
+				6EB4988A27ECA0F50059DE89 /* ShowDetailView.swift in Sources */,
 				6EB4985F27EC7D040059DE89 /* DateFormatter+Extensions.swift in Sources */,
 				6EFEEA8027EB6411001586F4 /* AppServices.swift in Sources */,
 				6E5FA92627EB3F13003B8910 /* MockRepository.swift in Sources */,
@@ -538,6 +549,7 @@
 				6E583AB027EA4E520063B0D7 /* JSONDecoder+Extensions.swift in Sources */,
 				6E5FA91B27EB3DC0003B8910 /* FontIdentifier.swift in Sources */,
 				6E583A5F27EA34230063B0D7 /* AppDelegate.swift in Sources */,
+				6EB4989227ECB3040059DE89 /* Description+Extensions.swift in Sources */,
 				6E583AAB27EA4C1F0063B0D7 /* Repository.swift in Sources */,
 				6E583AAD27EA4C3C0063B0D7 /* PanelApi.swift in Sources */,
 				6EB4986427EC8B150059DE89 /* ShowDetailViewController.swift in Sources */,
@@ -899,6 +911,14 @@
 				kind = branch;
 			};
 		};
+		6EB4988B27ECA4A70059DE89 /* XCRemoteSwiftPackageReference "Atributika" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/psharanda/Atributika.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		6ED09A4027EA533100C56F6B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
@@ -940,6 +960,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6E583AA227EA3CF80063B0D7 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = RxMoya;
+		};
+		6EB4988C27ECA4A70059DE89 /* Atributika */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EB4988B27ECA4A70059DE89 /* XCRemoteSwiftPackageReference "Atributika" */;
+			productName = Atributika;
 		};
 		6ED09A4127EA533100C56F6B /* RxBlocking */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -12,9 +12,10 @@ class AppFlow: Flow {
 
   private let services: AppServices
   private let rootViewController = NavigationController()
-    .style(.transparent)
+    .style(.color(.white))
+    .tint(.black)
     .hideNavigationBar()
-
+    .statusBarStyle(.light)
 
   init(withServices services: AppServices) {
     self.services = services
@@ -46,7 +47,9 @@ class AppFlow: Flow {
   }
 
   private func navigateToShowDetail(with id: String) -> FlowContributors {
-    let viewController = UIViewController().background(.red)
+    let viewController = ShowDetailViewController(
+      viewModel: .init(identity: id, repository: services.repository)
+    )
     rootViewController.pushViewController(viewController, animated: true)
 
     return .one(flowContributor: .contribute(
