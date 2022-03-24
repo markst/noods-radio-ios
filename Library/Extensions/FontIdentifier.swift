@@ -5,4 +5,5 @@ extension FontIdentifier {
   static var hkGroteskMedium = FontIdentifier("HKGrotesk-Medium")
   static var hkGroteskRegular = FontIdentifier("HKGrotesk-Regular")
   static var hkGroteskSemiBold = FontIdentifier("HKGrotesk-SemiBold")
+  static var neueMachinaLight = FontIdentifier("NeueMachina-Light")
 }

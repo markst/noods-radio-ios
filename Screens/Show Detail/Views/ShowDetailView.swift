@@ -81,7 +81,7 @@ class ShowDetailView: UView {
           UView() {
             UVStack() {
               UText("Artist — Track Name")
-                .font(.hkGroteskRegular, 18) // "Neue Machina"
+                .font(.neueMachinaLight, 18)
                 .compressionResistance(y: .required)
               UText($show.map { $0?.tracklist ?? .init(string: "No Tracklist :(") })
                 .color(0x666666)
