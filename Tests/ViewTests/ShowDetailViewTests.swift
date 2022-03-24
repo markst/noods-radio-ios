@@ -12,4 +12,13 @@ class ShowDetailViewTests: XCTestCase {
       as: .image
     )
   }
+
+  func testShowDetailViewMockTwo() {
+    assertSnapshot(
+      matching: ShowDetailView()
+        .size(375, 812)
+        .do({ $0.show = .init(show: Show.mock) }),
+      as: .image
+    )
+  }
 }
