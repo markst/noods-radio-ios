@@ -901,9 +901,9 @@
 		};
 		6E583A6127EA35D40063B0D7 /* XCRemoteSwiftPackageReference "UIKitPlus" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MihaelIsaev/UIKitPlus";
+			repositoryURL = "https://github.com/markst/UIKitPlus";
 			requirement = {
-				branch = master;
+				branch = "feature/collection-dynamic-sizing";
 				kind = branch;
 			};
 		};

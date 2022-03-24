@@ -1,79 +1,77 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Alamofire",
-        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
-        "state": {
-          "branch": null,
-          "revision": "f82c23a8a7ef8dc1a49a8bfc6a96883e79121864",
-          "version": "5.5.0"
-        }
-      },
-      {
-        "package": "Atributika",
-        "repositoryURL": "https://github.com/psharanda/Atributika.git",
-        "state": {
-          "branch": null,
-          "revision": "d018897afbd55d9065ef859650585bac890ada7e",
-          "version": "4.10.1"
-        }
-      },
-      {
-        "package": "Moya",
-        "repositoryURL": "https://github.com/markst/Moya.git",
-        "state": {
-          "branch": "master",
-          "revision": "cbe483eb7a834725e750fd995ac3d34f46aa4ee1",
-          "version": null
-        }
-      },
-      {
-        "package": "RxDataSources",
-        "repositoryURL": "https://github.com/RxSwiftCommunity/RxDataSources.git",
-        "state": {
-          "branch": "main",
-          "revision": "bbfea3869f5492580563c676acda729c64fa489e",
-          "version": null
-        }
-      },
-      {
-        "package": "RxFlow",
-        "repositoryURL": "https://github.com/RxSwiftCommunity/RxFlow.git",
-        "state": {
-          "branch": "main",
-          "revision": "d944b487c66bdd7522cb44ca1cb54dbc354de223",
-          "version": null
-        }
-      },
-      {
-        "package": "RxSwift",
-        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
-        "state": {
-          "branch": null,
-          "revision": "b4307ba0b6425c0ba4178e138799946c3da594f8",
-          "version": "6.5.0"
-        }
-      },
-      {
-        "package": "RxSwiftUtilities",
-        "repositoryURL": "https://github.com/RxSwiftCommunity/RxSwiftUtilities.git",
-        "state": {
-          "branch": "master",
-          "revision": "79681750878009776b5fe17223cbbe89a264d3e6",
-          "version": null
-        }
-      },
-      {
-        "package": "UIKitPlus",
-        "repositoryURL": "https://github.com/MihaelIsaev/UIKitPlus",
-        "state": {
-          "branch": "master",
-          "revision": "b3df323fd07b6760173a85ab2930be3a88c9f998",
-          "version": null
-        }
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f82c23a8a7ef8dc1a49a8bfc6a96883e79121864",
+        "version" : "5.5.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "atributika",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/psharanda/Atributika.git",
+      "state" : {
+        "revision" : "d018897afbd55d9065ef859650585bac890ada7e",
+        "version" : "4.10.1"
+      }
+    },
+    {
+      "identity" : "moya",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/markst/Moya.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "cbe483eb7a834725e750fd995ac3d34f46aa4ee1"
+      }
+    },
+    {
+      "identity" : "rxdatasources",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/RxDataSources.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bbfea3869f5492580563c676acda729c64fa489e"
+      }
+    },
+    {
+      "identity" : "rxflow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/RxFlow.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d944b487c66bdd7522cb44ca1cb54dbc354de223"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "b4307ba0b6425c0ba4178e138799946c3da594f8",
+        "version" : "6.5.0"
+      }
+    },
+    {
+      "identity" : "rxswiftutilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/RxSwiftUtilities.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "79681750878009776b5fe17223cbbe89a264d3e6"
+      }
+    },
+    {
+      "identity" : "uikitplus",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/markst/UIKitPlus",
+      "state" : {
+        "branch" : "feature/collection-dynamic-sizing",
+        "revision" : "12869d2effb13ff91cbd3451bf8d9dd0d80bc320"
+      }
+    }
+  ],
+  "version" : 2
 }
