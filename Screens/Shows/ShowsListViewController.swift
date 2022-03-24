@@ -90,8 +90,9 @@ class ShowsListViewController: ViewController {
                 })
         disposeBag.insert(
             viewModel.activityIndicator
-                .asDriver()
-                .drive(collectionView.refreshControl!.rx.isRefreshing)
+                .asObservable()
+                .observe(on: MainScheduler.asyncInstance)
+                .bind(to: collectionView.refreshControl!.rx.isRefreshing)
         )
     }
 }
