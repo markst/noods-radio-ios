@@ -111,6 +111,7 @@ class ShowDetailView: UView {
         .widthToSuperview(multipliedBy: 1.0, priority: .defaultHigh)
         .edgesToSuperview()
       }
+      .background(.white)
       .refreshControl(refreshControl.onRefresh { [unowned self] in
         viewModel?.refresh.accept(())
       })
