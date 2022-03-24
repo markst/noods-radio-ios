@@ -21,7 +21,7 @@ struct ShowDetail : Codable {
          slug,
          date,
          artistTag = "artisttag",
-         descriptio,
+         descriptio = "description",
          residentId,
          genreTags = "genretags",
          tracklist,
@@ -39,7 +39,7 @@ struct ShowDetail : Codable {
     slug = try values.decode(String.self, forKey: .slug)
     date = try values.decodeIfPresent(Date.self, forKey: .date)
     artistTag = try values.decodeIfPresent([String].self, forKey: .artistTag)
-    descriptio = try values.decodeIfPresent(Description.self, forKey: .descriptio)
+    descriptio = try? values.decodeIfPresent(Description.self, forKey: .descriptio)
     residentId = try values.decodeIfPresent(String.self, forKey: .residentId)
     genreTags = try values.decodeIfPresent([String].self, forKey: .genreTags)
     tracklist = try? values.decodeIfPresent(Description.self, forKey: .tracklist)
