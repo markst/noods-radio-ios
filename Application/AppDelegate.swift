@@ -18,7 +18,7 @@ class AppDelegate: BaseApp {
 
         self.coordinator.coordinate(flow: appFlow, with: AppStepper(withServices: self.appServices))
 
-        Flows.use(appFlow, when: .created) { root in
+        Flows.use(appFlow, when: .created) { [mainScene] root in
           mainScene
             .mainScreen({ root })
             .switch(to: .main, animation: .fade)

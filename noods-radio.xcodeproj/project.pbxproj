@@ -29,6 +29,8 @@
 		6E5FA92627EB3F13003B8910 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FA92527EB3F13003B8910 /* MockRepository.swift */; };
 		6E5FA92827EB3F32003B8910 /* ShowViewModel+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FA92727EB3F32003B8910 /* ShowViewModel+Mock.swift */; };
 		6E5FA92A27EB3F63003B8910 /* Show+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FA92927EB3F63003B8910 /* Show+Mock.swift */; };
+		6E6B353327ED082E0004C4DE /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B353227ED082E0004C4DE /* Images.swift */; };
+		6E9A4E9F27ED042F00BD43F5 /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A4E9E27ED042F00BD43F5 /* DynamicHeightCollectionView.swift */; };
 		6EB4985D27EB9A530059DE89 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4985C27EB9A530059DE89 /* Fonts */; };
 		6EB4985F27EC7D040059DE89 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4985E27EC7D040059DE89 /* DateFormatter+Extensions.swift */; };
 		6EB4986127EC88A00059DE89 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4986027EC88A00059DE89 /* Date+Extensions.swift */; };
@@ -42,6 +44,7 @@
 		6EB4988D27ECA4A70059DE89 /* Atributika in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB4988C27ECA4A70059DE89 /* Atributika */; };
 		6EB4989227ECB3040059DE89 /* Description+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4989127ECB3040059DE89 /* Description+Extensions.swift */; };
 		6EB4989527ECCF2C0059DE89 /* MockRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4989327ECCEED0059DE89 /* MockRepositoryTests.swift */; };
+		6ECB68C327ECD8EA000D532C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED09A3E27EA514000C56F6B /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6ED09A4227EA533100C56F6B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 6ED09A4127EA533100C56F6B /* RxBlocking */; };
 		6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */; };
 		6ED09A4727EA556F00C56F6B /* NoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */; };
@@ -97,6 +100,8 @@
 		6E5FA92527EB3F13003B8910 /* MockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
 		6E5FA92727EB3F32003B8910 /* ShowViewModel+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowViewModel+Mock.swift"; sourceTree = "<group>"; };
 		6E5FA92927EB3F63003B8910 /* Show+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show+Mock.swift"; sourceTree = "<group>"; };
+		6E6B353227ED082E0004C4DE /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		6E9A4E9E27ED042F00BD43F5 /* DynamicHeightCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightCollectionView.swift; sourceTree = "<group>"; };
 		6EB4985C27EB9A530059DE89 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		6EB4985E27EC7D040059DE89 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		6EB4986027EC88A00059DE89 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
@@ -122,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECB68C327ECD8EA000D532C /* SwiftUI.framework in Frameworks */,
 				6EFEEA7927EB4E73001586F4 /* RxFlow in Frameworks */,
 				6E4928C527EA68DC00F88D8C /* RxDataSources in Frameworks */,
 				6EB4988D27ECA4A70059DE89 /* Atributika in Frameworks */,
@@ -212,6 +218,7 @@
 				6E5FA92427EB3F10003B8910 /* Mock */,
 				6E583AA527EA3F010063B0D7 /* Models */,
 				6E583AA827EA4BFA0063B0D7 /* Services */,
+				6E9A4E9D27ED042700BD43F5 /* Views */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -263,6 +270,7 @@
 				6E5FA91A27EB3DC0003B8910 /* FontIdentifier.swift */,
 				6E583AAF27EA4E520063B0D7 /* JSONDecoder+Extensions.swift */,
 				6E5FA91827EB3DA6003B8910 /* Then.swift */,
+				6E6B353227ED082E0004C4DE /* Images.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -330,6 +338,14 @@
 				6EB4988727EC9D0B0059DE89 /* ShowDetail+Mock.swift */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		6E9A4E9D27ED042700BD43F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A4E9E27ED042F00BD43F5 /* DynamicHeightCollectionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6EB4986227EC8B080059DE89 /* Show Detail */ = {
@@ -555,7 +571,9 @@
 				6EB4989227ECB3040059DE89 /* Description+Extensions.swift in Sources */,
 				6E583AAB27EA4C1F0063B0D7 /* Repository.swift in Sources */,
 				6E583AAD27EA4C3C0063B0D7 /* PanelApi.swift in Sources */,
+				6E9A4E9F27ED042F00BD43F5 /* DynamicHeightCollectionView.swift in Sources */,
 				6EB4986427EC8B150059DE89 /* ShowDetailViewController.swift in Sources */,
+				6E6B353327ED082E0004C4DE /* Images.swift in Sources */,
 				6E5FA91727EB3D82003B8910 /* GenreTagCelll.swift in Sources */,
 				6E5FA92127EB3EF2003B8910 /* ShowsListViewModel.swift in Sources */,
 			);
