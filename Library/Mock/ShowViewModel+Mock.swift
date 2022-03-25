@@ -4,7 +4,7 @@ extension ShowViewModel {
   static let mock: ShowViewModel = .init(
     identity: "al-jourgensen-special",
     title: "Al Jourgensen Special w/ Heads on Sticks",
-    date: Date(),
+    date: DateFormatter.default.date(from: "25.03.22"),
     genres: ["HARDCORE PUNK", "EBM", "THRASH", "INDUSTRIAL"]
   )
   

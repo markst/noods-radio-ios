@@ -3,7 +3,7 @@ import Foundation
 struct Show: Codable {
   let id: String
   let title: String
-  let date: Date
+  let date: Date?
   let artworkSmall: URL
   let genreTags: [String]
   let mixcloud: String

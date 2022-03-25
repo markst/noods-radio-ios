@@ -16,7 +16,7 @@ struct ShowViewModel: Equatable, IdentifiableType {
   init(show: Show) {
     self.identity = show.id
     self.title = show.title
-    self.date = show.date.form()
+    self.date = show.date?.form() ?? ""
     self.image = show.artworkSmall
     self.genres = show.genreTags.map({ $0.uppercased() })
 

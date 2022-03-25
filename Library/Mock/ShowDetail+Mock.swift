@@ -4,7 +4,7 @@ extension ShowDetail {
   static let mock: ShowDetail = .init(
     title: "Join The Future: A History of Bassline - Part 2 (2005-2022)",
     slug: "join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22",
-    date: Date(),
+    date: DateFormatter.default.date(from: "25.03.22"),
     artistTag: [""],
     descriptio: .init(html: "<p>This month we are celebrating St Patrick's Day with an hour special from one of our all time favourite bands...The Pogues. Grab a pint of Guinness, get your leather webs on and get jiggin!</p>"),
     residentId: "",
