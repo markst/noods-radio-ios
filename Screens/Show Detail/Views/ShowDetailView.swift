@@ -14,11 +14,13 @@ class ShowDetailView: UView {
     body {
       UScrollView() {
         UVStack {
+          // Header:
           UView() {
             UImage(url: $show.map({ $0?.image }))
               .background(.gray)
               .mode(.scaleAspectFill)
               .edgesToSuperview()
+            // Show details:
             UView() {
               UHStack() {
                 UView() {
@@ -31,6 +33,7 @@ class ShowDetailView: UView {
                 .background(.black)
                 .height(60)
                 UVStack {
+                  // Show title:
                   UText($show.map({ $0?.title ?? "" }))
                     .font(.hkGroteskBold, 18)
                     .multiline()
