@@ -1,6 +1,21 @@
 import RxDataSources
 import Foundation
 
+protocol ShowCellOutput {
+  var title: String { get }
+  var image: URL? { get }
+  var date: String { get }
+  var genres: [String] { get }
+}
+
+protocol ShowDetailViewOutput: ShowCellOutput {
+  var descriptio: NSAttributedString? { get }
+  var tracklist: NSAttributedString? { get }
+  var mixcloud: URL? { get }
+}
+
+extension ShowViewModel: ShowCellOutput & ShowDetailViewOutput { }
+
 struct ShowViewModel: Equatable, IdentifiableType {
   let identity: String
   let title: String

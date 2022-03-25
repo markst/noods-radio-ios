@@ -6,7 +6,7 @@ class ShowDetailView: UView {
   var viewModel: ShowDetailProtocol?
   let playButton = LoadingButton()
   
-  @UState var show: ShowViewModel?
+  @UState var show: ShowDetailViewOutput?
   
   override func buildView() {
     super.buildView()
@@ -143,7 +143,7 @@ struct ShowDetailView_Preview: PreviewProvider, DeclarativePreview {
   static var preview: Preview {
     Preview {
       ShowDetailView(frame: .init(x: 0, y: 0, width: 320, height: 320))
-        .do({ $0.show = .init(show: ShowDetail.mock) })
+        .do({ $0.show = ShowViewModel(show: ShowDetail.mock) })
         .background(.red)
         .edgesToSuperview()
     }

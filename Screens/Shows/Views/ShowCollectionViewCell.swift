@@ -2,7 +2,7 @@ import UIKitPlus
 
 class ShowCollectionViewCell: UCollectionCell {
   
-  @UState var viewModel: ShowViewModel?
+  @UState var viewModel: ShowCellOutput?
   
   override func buildView() {
     super.buildView()
