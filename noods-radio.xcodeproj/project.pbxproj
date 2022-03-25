@@ -40,6 +40,7 @@
 		6EB2D83C27EE661E00E37069 /* ShowDetailViewModel+Cloudcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2D83B27EE661E00E37069 /* ShowDetailViewModel+Cloudcast.swift */; };
 		6EB2D83E27EE674500E37069 /* CloudcastUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2D83D27EE674500E37069 /* CloudcastUnitTest.swift */; };
 		6EB2D84127EE6B6F00E37069 /* XOREncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2D84027EE6B6F00E37069 /* XOREncryption.swift */; };
+		6EB2D84427EE6D8300E37069 /* RxMusicPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB2D84327EE6D8300E37069 /* RxMusicPlayer */; };
 		6EB4985D27EB9A530059DE89 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4985C27EB9A530059DE89 /* Fonts */; };
 		6EB4985F27EC7D040059DE89 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4985E27EC7D040059DE89 /* DateFormatter+Extensions.swift */; };
 		6EB4986127EC88A00059DE89 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4986027EC88A00059DE89 /* Date+Extensions.swift */; };
@@ -153,6 +154,7 @@
 				6E4928C527EA68DC00F88D8C /* RxDataSources in Frameworks */,
 				6EB4988D27ECA4A70059DE89 /* Atributika in Frameworks */,
 				6E583AA427EA3CF80063B0D7 /* RxMoya in Frameworks */,
+				6EB2D84427EE6D8300E37069 /* RxMusicPlayer in Frameworks */,
 				6E583A6327EA35D40063B0D7 /* UIKitPlus in Frameworks */,
 				6EFEEA7627EB4C47001586F4 /* RxSwiftUtilities in Frameworks */,
 			);
@@ -479,6 +481,7 @@
 				6EFEEA7527EB4C47001586F4 /* RxSwiftUtilities */,
 				6EFEEA7827EB4E73001586F4 /* RxFlow */,
 				6EB4988C27ECA4A70059DE89 /* Atributika */,
+				6EB2D84327EE6D8300E37069 /* RxMusicPlayer */,
 			);
 			productName = noodsradio;
 			productReference = 6E583A0B27EA224E0063B0D7 /* NoodsRadio.app */;
@@ -566,6 +569,7 @@
 				6EFEEA7727EB4E73001586F4 /* XCRemoteSwiftPackageReference "RxFlow" */,
 				6EB4988B27ECA4A70059DE89 /* XCRemoteSwiftPackageReference "Atributika" */,
 				6E6B353E27ED1F870004C4DE /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				6EB2D84227EE6D8300E37069 /* XCRemoteSwiftPackageReference "RxMusicPlayer" */,
 			);
 			productRefGroup = 6E583A0C27EA224E0063B0D7 /* Products */;
 			projectDirPath = "";
@@ -1019,6 +1023,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		6EB2D84227EE6D8300E37069 /* XCRemoteSwiftPackageReference "RxMusicPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yoheimuta/RxMusicPlayer.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		6EB4988B27ECA4A70059DE89 /* XCRemoteSwiftPackageReference "Atributika" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/psharanda/Atributika.git";
@@ -1073,6 +1085,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6E6B353E27ED1F870004C4DE /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
+		};
+		6EB2D84327EE6D8300E37069 /* RxMusicPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EB2D84227EE6D8300E37069 /* XCRemoteSwiftPackageReference "RxMusicPlayer" */;
+			productName = RxMusicPlayer;
 		};
 		6EB4988C27ECA4A70059DE89 /* Atributika */ = {
 			isa = XCSwiftPackageProductDependency;

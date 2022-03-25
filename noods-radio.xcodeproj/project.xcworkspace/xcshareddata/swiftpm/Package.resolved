@@ -46,6 +46,15 @@
       }
     },
     {
+      "identity" : "rxmusicplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yoheimuta/RxMusicPlayer.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "81f66d3f731c2f9ac8ac22abdd7f5ef54ac39dba"
+      }
+    },
+    {
       "identity" : "rxswift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ReactiveX/RxSwift.git",
