@@ -52,9 +52,10 @@
 		6EBF4D9127ED20C600916B51 /* ShowDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF4D9027ED20C600916B51 /* ShowDetailViewTests.swift */; };
 		6ECB68C327ECD8EA000D532C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED09A3E27EA514000C56F6B /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6ED09A4227EA533100C56F6B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 6ED09A4127EA533100C56F6B /* RxBlocking */; };
-		6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */; };
 		6ED09A4727EA556F00C56F6B /* NoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB627EA4FAD0063B0D7 /* NoodsUITestsLaunchTests.swift */; };
 		6ED09A4827EA556F00C56F6B /* NoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583AB727EA4FAD0063B0D7 /* NoodsUITests.swift */; };
+		6EDEFDE527EE135500CC8D30 /* ShowsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFDE427EE135500CC8D30 /* ShowsListViewModelTests.swift */; };
+		6EDEFDE727EE136200CC8D30 /* ShowDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFDE627EE136200CC8D30 /* ShowDetailViewModelTests.swift */; };
 		6EFEEA7627EB4C47001586F4 /* RxSwiftUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 6EFEEA7527EB4C47001586F4 /* RxSwiftUtilities */; };
 		6EFEEA7927EB4E73001586F4 /* RxFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 6EFEEA7827EB4E73001586F4 /* RxFlow */; };
 		6EFEEA7C27EB4FBF001586F4 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEEA7B27EB4FBF001586F4 /* AppFlow.swift */; };
@@ -126,7 +127,8 @@
 		6EB4989327ECCEED0059DE89 /* MockRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepositoryTests.swift; sourceTree = "<group>"; };
 		6EBF4D9027ED20C600916B51 /* ShowDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewTests.swift; sourceTree = "<group>"; };
 		6ED09A3E27EA514000C56F6B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodsRadioTests.swift; sourceTree = "<group>"; };
+		6EDEFDE427EE135500CC8D30 /* ShowsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsListViewModelTests.swift; sourceTree = "<group>"; };
+		6EDEFDE627EE136200CC8D30 /* ShowDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewModelTests.swift; sourceTree = "<group>"; };
 		6EFEEA7B27EB4FBF001586F4 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
 		6EFEEA7D27EB63EB001586F4 /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
 		6EFEEA7F27EB6411001586F4 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 			children = (
 				6E583AB327EA4F690063B0D7 /* UITests */,
 				6E583AB227EA4F650063B0D7 /* UnitTests */,
+				6EDEFDE327EE133D00CC8D30 /* ViewModelTests */,
 				6E6B354227ED20880004C4DE /* ViewTests */,
 			);
 			path = Tests;
@@ -302,7 +305,6 @@
 			isa = PBXGroup;
 			children = (
 				6EB4989327ECCEED0059DE89 /* MockRepositoryTests.swift */,
-				6ED09A4527EA550A00C56F6B /* NoodsRadioTests.swift */,
 				6E583AB427EA4FA90063B0D7 /* RepositoryTests.swift */,
 			);
 			path = UnitTests;
@@ -405,6 +407,15 @@
 				6ED09A3E27EA514000C56F6B /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EDEFDE327EE133D00CC8D30 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFDE427EE135500CC8D30 /* ShowsListViewModelTests.swift */,
+				6EDEFDE627EE136200CC8D30 /* ShowDetailViewModelTests.swift */,
+			);
+			path = ViewModelTests;
 			sourceTree = "<group>";
 		};
 		6EFEEA7A27EB4F8A001586F4 /* Flows */ = {
@@ -613,9 +624,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ED09A4627EA550A00C56F6B /* NoodsRadioTests.swift in Sources */,
+				6EDEFDE727EE136200CC8D30 /* ShowDetailViewModelTests.swift in Sources */,
 				6EB4989527ECCF2C0059DE89 /* MockRepositoryTests.swift in Sources */,
 				6EBF4D9127ED20C600916B51 /* ShowDetailViewTests.swift in Sources */,
+				6EDEFDE527EE135500CC8D30 /* ShowsListViewModelTests.swift in Sources */,
 				6E4E444527EE027000522977 /* ShowsListViewControllerTests.swift in Sources */,
 				6E583ABA27EA4FEE0063B0D7 /* RepositoryTests.swift in Sources */,
 			);

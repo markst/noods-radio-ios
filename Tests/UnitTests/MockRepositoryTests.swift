@@ -18,7 +18,6 @@ class MockRepositoryTests: XCTestCase {
   func testShowsMock() throws {
     let shows = try repository
       .shows()
-      .debug()
       .toBlocking()
       .toArray()
 
@@ -31,7 +30,6 @@ class MockRepositoryTests: XCTestCase {
   func testShowDetailMock() throws {
     let showDetail = try repository
       .showDetail(id: "123")
-      .debug()
       .toBlocking()
       .first()
 

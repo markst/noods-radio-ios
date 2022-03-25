@@ -7,7 +7,7 @@ import Moya
 class RepositoryTests: XCTestCase {
 
   var repository: NoodsRepository = Repository(
-    provider: .init(stubClosure: MoyaProvider.immediatelyStub)
+    provider: .init(stubClosure: MoyaProvider.neverStub)
   )
 
   override func setUpWithError() throws {
