@@ -11,11 +11,13 @@ protocol NoodsRepository {
 struct Repository {
   let provider: MoyaProvider<PanelApi>
   
-  init(provider: MoyaProvider<PanelApi> = .init(plugins: [
-    NetworkLoggerPlugin(configuration: .init(logOptions: .errorResponseBody))
-  ])) {
-    self.provider = provider
-  }
+  init(provider: MoyaProvider<PanelApi> = .init(
+    stubClosure: MoyaProvider.neverStub,
+    plugins: [
+      NetworkLoggerPlugin(configuration: .init(logOptions: .errorResponseBody))
+    ])) {
+      self.provider = provider
+    }
 }
 
 extension Repository: NoodsRepository {

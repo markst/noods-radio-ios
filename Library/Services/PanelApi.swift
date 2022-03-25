@@ -65,3 +65,20 @@ extension PanelApi: TargetType {
     }
   }
 }
+
+extension PanelApi {
+  var sampleData: Data {
+    switch self {
+    case .shows:
+      return Bundle.main
+        .url(forResource: "Mock/shows", withExtension: "json")
+        .map({ try! Data(contentsOf: $0) }) ?? Data()
+    case .show(let id):
+      return Bundle.main
+        .url(forResource: "Mock/\(id)", withExtension: "json")
+        .map({ try! Data(contentsOf: $0) }) ?? Data()
+    default:
+      return Data()
+    }
+  }
+}

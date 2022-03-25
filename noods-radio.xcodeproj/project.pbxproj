@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E4928C227EA673100F88D8C /* ShowsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4928C127EA673100F88D8C /* ShowsListViewController.swift */; };
 		6E4928C527EA68DC00F88D8C /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 6E4928C427EA68DC00F88D8C /* RxDataSources */; };
+		6E4E444327EDFE8C00522977 /* Mock in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E444227EDFE8C00522977 /* Mock */; };
 		6E583A5827EA34100063B0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E583A5727EA34100063B0D7 /* LaunchScreen.storyboard */; };
 		6E583A5A27EA34160063B0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E583A5927EA34160063B0D7 /* Assets.xcassets */; };
 		6E583A5F27EA34230063B0D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E583A5C27EA34230063B0D7 /* AppDelegate.swift */; };
@@ -80,6 +81,7 @@
 
 /* Begin PBXFileReference section */
 		6E4928C127EA673100F88D8C /* ShowsListViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ShowsListViewController.swift; sourceTree = "<group>"; };
+		6E4E444227EDFE8C00522977 /* Mock */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mock; sourceTree = "<group>"; };
 		6E583A0B27EA224E0063B0D7 /* NoodsRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoodsRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E583A2127EA224E0063B0D7 /* NoodsRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoodsRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E583A2B27EA224E0063B0D7 /* NoodsRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoodsRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,6 +238,7 @@
 			children = (
 				6E583A5927EA34160063B0D7 /* Assets.xcassets */,
 				6EB4985C27EB9A530059DE89 /* Fonts */,
+				6E4E444227EDFE8C00522977 /* Mock */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 			files = (
 				6EB4985D27EB9A530059DE89 /* Fonts in Resources */,
 				6E583A5A27EA34160063B0D7 /* Assets.xcassets in Resources */,
+				6E4E444327EDFE8C00522977 /* Mock in Resources */,
 				6E583A5827EA34100063B0D7 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

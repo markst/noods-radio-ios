@@ -1,0 +1,633 @@
+{
+    "title": "Through The Years - Ethio Jazz special w/ The Grey Area",
+    "slug": "through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22",
+    "ogimage": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/e3c6f2ec32-1647941021/etho-800x800.jpg",
+    "ogdescription": "20.03.22 Ed from The Grey Area pust his best journalist hat on, taking us deep into the late 1960s/70s golden age of Ethiopian Jazz music.",
+    "date": "20.03.22",
+    "artisttag": [],
+    "description": {
+        "html": "<p>Ed from The Grey Area pust his best journalist hat on, taking us deep into the late 1960s/70s golden age of Ethiopian Jazz music.</p>"
+    },
+    "residentId": "residents/the-grey-area",
+    "genretag": [
+        "Ethiopiques",
+        "Jazz"
+    ],
+    "genretags": [
+        "Ethiopiques",
+        "Jazz"
+    ],
+    "tracklist": {
+        "html": "<p>Tesfa Mariam Kidane -   Heiwote<br />\nMulatu Astatke  -   Chifara<br />\nMulatu Astatke  -   Gubelye<br />\nSeifu Yohannes  -   Mela Mela<br />\nMahmoud Ahmed   -   Kulun Man Qualesh<br />\nMahmoud Ahmed   -   Fetsum Dink Lij Nesh<br />\nAlemayehu Eshete    -   Chiro Adarie Negne<br />\nGirma Beyene    -   Ene Negne By Manesh<br />\nHailu Mergia &amp; Dahlak Band  -   Bati Bati<br />\nMuluken Melesse -   Tenesh Kelebe Lie<br />\nGirma Beyene    -   Set Alamenme<br />\nTeshome Meteku  -   Hasabe</p>"
+    },
+    "guestmix": true,
+    "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/e3c6f2ec32-1647941021/etho-450x.jpg 450w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/e3c6f2ec32-1647941021/etho-900x.jpg 900w",
+    "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/e3c6f2ec32-1647941021/etho-100x100.jpg",
+    "mixcloud": "https://www.mixcloud.com/NoodsRadio/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/",
+    "resident": [
+        {
+            "id": "residents/the-grey-area",
+            "title": "The Grey Area",
+            "residenttag": "The Grey Area",
+            "about": {
+                "html": "<p>The Grey Area is a bleary eyed stagger down the road less traveled. Music from around the world in a variety of styles, tongues and ages. Every month expect to hear joyful cries, ambient drones, spiritual musings and electronic experiments, alongside special features and thematic episodes.</p>"
+            },
+            "aboutSanitized": "The Grey Area is a bleary eyed stagger down the road less traveled. Music from around the world in a variety of styles, tongues and ages. Every month expect to hear joyful cries, ambient drones, spiritual musings and electronic experiments, alongside special features and thematic episodes.",
+            "image": "https://www.panel.noodsradio.com/media/pages/residents/the-grey-area/87b2bec1df-1605874044/bio-photo-715x400.jpg"
+        }
+    ],
+    "showsbyartist": [
+        {
+            "id": "shows/the-grey-area-14th-march-21",
+            "title": "The Grey Area",
+            "date": "14.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/the-grey-area-14th-march-21/d28da44350-1647379009/14-the-grey-area-2-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/the-grey-area-14th-march-21/d28da44350-1647379009/14-the-grey-area-2-25x25.jpg",
+            "artisttag": "The Grey Area",
+            "genretag": [
+                "Ambient",
+                "Hip-Hop",
+                "Jazz",
+                "Turkish Psych"
+            ],
+            "genretags": [
+                "Ambient",
+                "Hip-Hop",
+                "Jazz",
+                "Turkish Psych"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-14th-march-21/"
+        },
+        {
+            "id": "shows/the-grey-area-14th-february-22",
+            "title": "The Grey Area",
+            "date": "14.02.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/02/the-grey-area-14th-february-22/32871ab5f9-1644958382/14-the-grey-area-noinfo-1-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/02/the-grey-area-14th-february-22/32871ab5f9-1644958382/14-the-grey-area-noinfo-1-25x25.jpg",
+            "artisttag": "The Grey Area",
+            "genretag": [
+                "Soul Jazz",
+                "Soul",
+                "Persian Traditional",
+                "J-Pop"
+            ],
+            "genretags": [
+                "Soul Jazz",
+                "Soul",
+                "Persian Traditional",
+                "J-Pop"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-14th-february-22/"
+        },
+        {
+            "id": "shows/the-grey-area-10th-january-22",
+            "title": "The Grey Area",
+            "date": "10.01.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/01/the-grey-area-10th-january-22/78637aa9d2-1641846665/10-grey-area-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/01/the-grey-area-10th-january-22/78637aa9d2-1641846665/10-grey-area-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Folk",
+                "Ambient",
+                "Jazz",
+                "Psychedelic Rock"
+            ],
+            "genretags": [
+                "Folk",
+                "Ambient",
+                "Jazz",
+                "Psychedelic Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-10th-january-21/"
+        },
+        {
+            "id": "shows/the-grey-area-13th-december-21",
+            "title": "The Grey Area",
+            "date": "13.12.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/12/the-grey-area-13th-december-21/1992e9a1d6-1639495738/052-noinfo-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/12/the-grey-area-13th-december-21/1992e9a1d6-1639495738/052-noinfo-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "K-Pop",
+                "Experimental",
+                "Bollywood"
+            ],
+            "genretags": [
+                "K-Pop",
+                "Experimental",
+                "Bollywood"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-13th-december-21/"
+        },
+        {
+            "id": "shows/the-grey-area-bristol-special-8th-november-21",
+            "title": "The Grey Area: Bristol Special",
+            "date": "08.11.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/11/the-grey-area-bristol-special-8th-november-21/5d45beae55-1636403023/08-the-grey-area-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/11/the-grey-area-bristol-special-8th-november-21/5d45beae55-1636403023/08-the-grey-area-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Ambient",
+                "Prog Rock",
+                "Jazz"
+            ],
+            "genretags": [
+                "Ambient",
+                "Prog Rock",
+                "Jazz"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-bristol-special-8th-november-21/"
+        },
+        {
+            "id": "shows/the-grey-area-11th-october-21",
+            "title": "The Grey Area",
+            "date": "11.10.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/10/the-grey-area-11th-october-21/17136880e9-1634068229/11-the-grey-area-2-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/10/the-grey-area-11th-october-21/17136880e9-1634068229/11-the-grey-area-2-25x25.jpg",
+            "artisttag": "The Grey Area",
+            "genretag": [
+                "J-Pop",
+                "Funk",
+                "Rock N Roll"
+            ],
+            "genretags": [
+                "J-Pop",
+                "Funk",
+                "Rock N Roll"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-11th-october-21/"
+        },
+        {
+            "id": "shows/the-grey-area-9th-august-21",
+            "title": "The Grey Area",
+            "date": "09.08.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/08/the-grey-area-9th-august-21/c50a35d48a-1628617082/09-the-grey-area-noinfo-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/08/the-grey-area-9th-august-21/c50a35d48a-1628617082/09-the-grey-area-noinfo-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Psychedelic Folk",
+                "Soft Rock",
+                "Ambient",
+                "Experimental"
+            ],
+            "genretags": [
+                "Psychedelic Folk",
+                "Soft Rock",
+                "Ambient",
+                "Experimental"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-9th-august-21/"
+        },
+        {
+            "id": "shows/the-grey-area-12th-july-21",
+            "title": "The Grey Area",
+            "date": "12.07.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/07/the-grey-area-12th-july-21/ec06ba4282-1626182510/grey-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/07/the-grey-area-12th-july-21/ec06ba4282-1626182510/grey-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Dub",
+                "Electronica",
+                "Experimental",
+                "Bollywood",
+                "Ambient"
+            ],
+            "genretags": [
+                "Dub",
+                "Electronica",
+                "Experimental",
+                "Bollywood",
+                "Ambient"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-12th-july-21/"
+        },
+        {
+            "id": "shows/the-grey-area-14th-june-21",
+            "title": "The Grey Area",
+            "date": "14.06.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/06/the-grey-area-14th-june-21/d8d26cfab2-1623858892/greay-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/06/the-grey-area-14th-june-21/d8d26cfab2-1623858892/greay-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Reggae",
+                "Folk",
+                "Afrobeat",
+                "Psychedelic Rock",
+                "Spiritual Jazz"
+            ],
+            "genretags": [
+                "Reggae",
+                "Folk",
+                "Afrobeat",
+                "Psychedelic Rock",
+                "Spiritual Jazz"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-14th-june-21/"
+        },
+        {
+            "id": "shows/the-grey-area-10th-may-21",
+            "title": "The Grey Area",
+            "date": "10.05.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/the-grey-area-10th-may-21/afbd740bf3-1620918795/10-the-grey-area-noinfo-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/the-grey-area-10th-may-21/afbd740bf3-1620918795/10-the-grey-area-noinfo-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Molam",
+                "Bollywood",
+                "J-Pop",
+                "Funk",
+                "Post-Punk"
+            ],
+            "genretags": [
+                "Molam",
+                "Bollywood",
+                "J-Pop",
+                "Funk",
+                "Post-Punk"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-10th-may-21/"
+        },
+        {
+            "id": "shows/the-grey-area-12th-april-21",
+            "title": "The Grey Area",
+            "date": "12.04.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/04/the-grey-area-12th-april-21/eadb931a72-1618347905/grey-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/04/the-grey-area-12th-april-21/eadb931a72-1618347905/grey-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Rhythm & Blues",
+                "Slow Jams",
+                "Soul",
+                "Chanson",
+                "Pop"
+            ],
+            "genretags": [
+                "Rhythm & Blues",
+                "Slow Jams",
+                "Soul",
+                "Chanson",
+                "Pop"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-12th-april-21/"
+        },
+        {
+            "id": "shows/the-grey-area-8th-march-21",
+            "title": "The Grey Area",
+            "date": "08.03.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/03/the-grey-area-8th-march-21/61b3234bd2-1615326116/boogie-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/03/the-grey-area-8th-march-21/61b3234bd2-1615326116/boogie-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Electronica",
+                "New Wave",
+                "Bollywood",
+                "Boogie",
+                "Experimental"
+            ],
+            "genretags": [
+                "Electronica",
+                "New Wave",
+                "Bollywood",
+                "Boogie",
+                "Experimental"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-grey-area-8th-march-21/"
+        }
+    ],
+    "similarshows": [
+        {
+            "id": "shows/srenity-now-16th-may-21",
+            "title": "Srenity Now",
+            "date": "16.05.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/srenity-now-16th-may-21/ec0e9e51fc-1621939534/srenmay21notemp-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/srenity-now-16th-may-21/ec0e9e51fc-1621939534/srenmay21notemp-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Indian Classical",
+                "Ambient",
+                "Jazz",
+                "Ethiopiques"
+            ],
+            "genretags": [
+                "Indian Classical",
+                "Ambient",
+                "Jazz",
+                "Ethiopiques"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/srenity-now-16th-may-21/"
+        },
+        {
+            "id": "shows/mother-of-man-kind-27th-november-21",
+            "title": "Mother Of Mankind",
+            "date": "27.11.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/11/mother-of-man-kind-27th-november-21/c39977ce08-1638035777/27-mother-of-man-kind-2-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/11/mother-of-man-kind-27th-november-21/c39977ce08-1638035777/27-mother-of-man-kind-2-25x25.jpg",
+            "artisttag": "Mother Of Mankind",
+            "genretag": [
+                "Traditional African",
+                "Jazz",
+                "Ethiopiques"
+            ],
+            "genretags": [
+                "Traditional African",
+                "Jazz",
+                "Ethiopiques"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/mother-of-man-kind-27th-november-21/"
+        },
+        {
+            "id": "shows/the-rye-wax-show-w-lim-orion-18th-february-21",
+            "title": "The Rye Wax Show w/ Lim Orion",
+            "date": "18.02.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/02/the-rye-wax-show-w-lim-orion-18th-february-21/27936a8c57-1613932398/rye-wax-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/02/the-rye-wax-show-w-lim-orion-18th-february-21/27936a8c57-1613932398/rye-wax-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Folk",
+                "Ethiopiques",
+                "Lo-Fi Hip-Hop",
+                "Jazz",
+                "Alternative Rock"
+            ],
+            "genretags": [
+                "Folk",
+                "Ethiopiques",
+                "Lo-Fi Hip-Hop",
+                "Jazz",
+                "Alternative Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-rye-wax-show-w-lim-orion-18th-february-21/"
+        },
+        {
+            "id": "shows/mondo-erotico-9th-august-21",
+            "title": "Mondo Erotico",
+            "date": "09.08.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/08/mondo-erotico-9th-august-21/ab66a15b54-1628594664/mondo-erotico-09-08-21-artwork-alt3-2-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/08/mondo-erotico-9th-august-21/ab66a15b54-1628594664/mondo-erotico-09-08-21-artwork-alt3-2-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Italo",
+                "Jazz",
+                "Soul",
+                "Jazz Fusion"
+            ],
+            "genretags": [
+                "Italo",
+                "Jazz",
+                "Soul",
+                "Jazz Fusion"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/mondo-erotico-9th-august-21/"
+        },
+        {
+            "id": "shows/other-world-music-w-dj-guy-10th-april-21",
+            "title": "Other World Music w/ DJ Guy",
+            "date": "10.04.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/04/other-world-music-w-dj-guy-10th-april-21/4f30ec0f35-1618241256/2-artwork-no-text-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/04/other-world-music-w-dj-guy-10th-april-21/4f30ec0f35-1618241256/2-artwork-no-text-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Broken Beat",
+                "Jazz",
+                "Techno",
+                "Soul",
+                "House"
+            ],
+            "genretags": [
+                "Broken Beat",
+                "Jazz",
+                "Techno",
+                "Soul",
+                "House"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/other-world-music-w-dj-guy-10th-april-21/"
+        },
+        {
+            "id": "shows/two-hungry-ghosts-16th-may-19",
+            "title": "Two Hungry Ghosts",
+            "date": "16.05.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/05/two-hungry-ghosts-16th-may-19/f7f8da27d6-1605874043/noods-artwork-160519-bg-2-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/05/two-hungry-ghosts-16th-may-19/f7f8da27d6-1605874043/noods-artwork-160519-bg-2-25x25.jpg",
+            "artisttag": "two hungry ghosts",
+            "genretag": [
+                "Ambient",
+                "Jazz",
+                "Soul",
+                "Spiritual Jazz"
+            ],
+            "genretags": [
+                "Ambient",
+                "Jazz",
+                "Soul",
+                "Spiritual Jazz"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/two-hungry-ghosts-16th-may-19/"
+        },
+        {
+            "id": "shows/nicky-soft-touch-w-milk-no-sugar-14th-april-20",
+            "title": "Nicky Soft Touch w/ Milk, No Sugar",
+            "date": "14.04.20",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2020/04/nicky-soft-touch-w-milk-no-sugar-14th-april-20/fa7014207f-1605874043/screen-shot-2020-04-17-at-14-48-00-245x.png 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2020/04/nicky-soft-touch-w-milk-no-sugar-14th-april-20/fa7014207f-1605874043/screen-shot-2020-04-17-at-14-48-00-25x25.png",
+            "artisttag": "Nicky Soft Touch",
+            "genretag": [
+                "Hip-Hop",
+                "Jazz",
+                "R&B",
+                "Soul",
+                "Talk"
+            ],
+            "genretags": [
+                "Hip-Hop",
+                "Jazz",
+                "R&B",
+                "Soul",
+                "Talk"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/nicky-soft-touch-w-milk-no-sugar-14th-april-20/"
+        },
+        {
+            "id": "shows/independent-inquiries-w-theo-giles-14th-september-19",
+            "title": "Independent Inquiries w/ Theo Giles",
+            "date": "14.09.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/09/independent-inquiries-w-theo-giles-14th-september-19/09cdb0950a-1605874043/indedpendent-inquiries-artwork-170819-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/09/independent-inquiries-w-theo-giles-14th-september-19/09cdb0950a-1605874043/indedpendent-inquiries-artwork-170819-25x25.jpg",
+            "artisttag": "independent inquiries",
+            "genretag": [
+                "Folk",
+                "Jazz",
+                "Post-Punk",
+                "Rocksteady",
+                "Soul"
+            ],
+            "genretags": [
+                "Folk",
+                "Jazz",
+                "Post-Punk",
+                "Rocksteady",
+                "Soul"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/independent-inquiries-w-theo-giles-14th-september-19/"
+        },
+        {
+            "id": "shows/global-sound-26th-june-21",
+            "title": "Global Sound",
+            "date": "26.06.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/global-sound-26th-june-21/0eefae5277-1624806810/26-global-sound-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/global-sound-26th-june-21/0eefae5277-1624806810/26-global-sound-25x25.jpg",
+            "artisttag": "Global Sound",
+            "genretag": [
+                "Jazz",
+                "Street Soul",
+                "Funk",
+                "Afrobeat"
+            ],
+            "genretags": [
+                "Jazz",
+                "Street Soul",
+                "Funk",
+                "Afrobeat"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/global-sound-26th-june-21/"
+        },
+        {
+            "id": "shows/all-cweamy-23rd-august-18",
+            "title": "All Cweamy",
+            "date": "23.08.18",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2018/08/all-cweamy-23rd-august-18/caa578c107-1605874043/allalessiook-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2018/08/all-cweamy-23rd-august-18/caa578c107-1605874043/allalessiook-25x25.jpg",
+            "artisttag": "All Cweamy",
+            "genretag": [
+                "Brazilian",
+                "Ethiopiques",
+                "Gnawa",
+                "Sahara Blues"
+            ],
+            "genretags": [
+                "Brazilian",
+                "Ethiopiques",
+                "Gnawa",
+                "Sahara Blues"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/all-cweamy-23rd-august-18/"
+        },
+        {
+            "id": "shows/hellfire-video-club-20th-january-20",
+            "title": "Hellfire Video Club",
+            "date": "20.01.20",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2020/01/hellfire-video-club-20th-january-20/21b7305fb3-1605874043/20-hell-fire-video-club-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2020/01/hellfire-video-club-20th-january-20/21b7305fb3-1605874043/20-hell-fire-video-club-25x25.jpg",
+            "artisttag": "Hellfire Video Club",
+            "genretag": [
+                "Jazz",
+                "Lounge",
+                "Psychedelic",
+                "Soundtrack"
+            ],
+            "genretags": [
+                "Jazz",
+                "Lounge",
+                "Psychedelic",
+                "Soundtrack"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/hellfire-video-club-20th-january-20/"
+        },
+        {
+            "id": "shows/tara-clerkin-trio-9th-may-21",
+            "title": "Tara Clerkin Trio",
+            "date": "09.05.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/tara-clerkin-trio-9th-may-21/77a352dac5-1620656151/09-tara-clerkin-trio-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/tara-clerkin-trio-9th-may-21/77a352dac5-1620656151/09-tara-clerkin-trio-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Electronica",
+                "Jazz",
+                "Rock",
+                "Blues",
+                "Bossa Nova"
+            ],
+            "genretags": [
+                "Electronica",
+                "Jazz",
+                "Rock",
+                "Blues",
+                "Bossa Nova"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/tara-clerkin-trio-9th-may-21/"
+        },
+        {
+            "id": "shows/a-four-letter-word-november-17",
+            "title": "A Four Letter Word",
+            "date": "17.11.17",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2017/11/a-four-letter-word-november-17/0efc747d90-1605874044/four-letter-word-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2017/11/a-four-letter-word-november-17/0efc747d90-1605874044/four-letter-word-25x25.jpg",
+            "artisttag": "a four letter word",
+            "genretag": [
+                "Contemporary Jazz",
+                "Jazz",
+                "Soul Jazz",
+                "Straight Jazz"
+            ],
+            "genretags": [
+                "Contemporary Jazz",
+                "Jazz",
+                "Soul Jazz",
+                "Straight Jazz"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/the-four-letter-word-november-17/"
+        },
+        {
+            "id": "shows/good-music-w-sunny-13th-july-19",
+            "title": "Good Music w/ Sunny",
+            "date": "13.07.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/07/good-music-w-sunny-13th-july-19/e6f538f9a9-1605874043/11-good-music-w-sunny-1200x795-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/07/good-music-w-sunny-13th-july-19/e6f538f9a9-1605874043/11-good-music-w-sunny-1200x795-25x25.jpg",
+            "artisttag": "Good Music w/ Sunny",
+            "genretag": [
+                "Jazz",
+                "New Wave",
+                "Spoken Word"
+            ],
+            "genretags": [
+                "Jazz",
+                "New Wave",
+                "Spoken Word"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/good-music-w-sunny-13th-july-19/"
+        },
+        {
+            "id": "shows/early-doors-april-18",
+            "title": "Early Doors w/ Dan Thorman",
+            "date": "04.04.18",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2018/04/early-doors-april-18/0536ba8d25-1605874043/cdd9-8ffe-4e56-95ce-00438fe33597-245x.png 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2018/04/early-doors-april-18/0536ba8d25-1605874043/cdd9-8ffe-4e56-95ce-00438fe33597-25x25.png",
+            "artisttag": "early doors",
+            "genretag": [
+                "Ambient",
+                "Fourth World",
+                "Jazz"
+            ],
+            "genretags": [
+                "Ambient",
+                "Fourth World",
+                "Jazz"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/early-doors-april-18/"
+        },
+        {
+            "id": "shows/j-pang-26th-november-21",
+            "title": "J Pang",
+            "date": "26.11.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/11/j-pang-26th-november-21/fbfee9f791-1637959085/thumbnail-img-7166-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/11/j-pang-26th-november-21/fbfee9f791-1637959085/thumbnail-img-7166-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Jazz"
+            ],
+            "genretags": [
+                "Jazz"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/j-pang-26th-november-21/"
+        }
+    ]
+}

@@ -1,0 +1,637 @@
+{
+    "title": "Shows",
+    "featured": [
+        {
+            "id": "shows/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22",
+            "title": "Join The Future: A History of Bassline - Part 2 (2005-2022)",
+            "date": "23.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22/52f499e4a8-1648117953/jtd-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22/52f499e4a8-1648117953/jtd-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22/52f499e4a8-1648117953/jtd-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Bassline",
+                "Interview"
+            ],
+            "genretags": [
+                "Bassline",
+                "Interview"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22/"
+        },
+        {
+            "id": "shows/rain-world-21st-march-22",
+            "title": "Rain World 'The Progues Special'",
+            "date": "21.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/rain-world-21st-march-22/2d662527bd-1647551743/20-rain-world-w-the-pogues-special-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/rain-world-21st-march-22/2d662527bd-1647551743/20-rain-world-w-the-pogues-special-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/rain-world-21st-march-22/2d662527bd-1647551743/20-rain-world-w-the-pogues-special-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Rock",
+                "Folk",
+                "Punk"
+            ],
+            "genretags": [
+                "Rock",
+                "Folk",
+                "Punk"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-21st-march-22/"
+        },
+        {
+            "id": "shows/relations-21st-march-22",
+            "title": "Relations",
+            "date": "21.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/relations-21st-march-22/f191a5fc07-1647958032/20-relations-900x-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/relations-21st-march-22/f191a5fc07-1647958032/20-relations-900x-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/relations-21st-march-22/f191a5fc07-1647958032/20-relations-900x-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Ambient",
+                "Electronica",
+                "Downtempo"
+            ],
+            "genretags": [
+                "Ambient",
+                "Electronica",
+                "Downtempo"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/relations-21st-march-22/"
+        },
+        {
+            "id": "shows/roots-corner-21st-march-22",
+            "title": "Roots Corner",
+            "date": "21.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/roots-corner-21st-march-22/64aaed3dbb-1648114595/img-0419-900x-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/roots-corner-21st-march-22/64aaed3dbb-1648114595/img-0419-900x-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/roots-corner-21st-march-22/64aaed3dbb-1648114595/img-0419-900x-25x25.jpg",
+            "artisttag": "roots corner",
+            "genretag": [
+                "Dub",
+                "Roots"
+            ],
+            "genretags": [
+                "Dub",
+                "Roots"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/roots-corner-21st-march-22/"
+        },
+        {
+            "id": "shows/shebeen-w-generals-hifi-21st-march-22",
+            "title": "Shebeen w/ Generals Hifi",
+            "date": "21.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/shebeen-w-generals-hifi-21st-march-22/8fe1bdb057-1647957231/21-shebeen-w-generals-hifi-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/shebeen-w-generals-hifi-21st-march-22/8fe1bdb057-1647957231/21-shebeen-w-generals-hifi-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/shebeen-w-generals-hifi-21st-march-22/8fe1bdb057-1647957231/21-shebeen-w-generals-hifi-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Dub",
+                "Roots",
+                "Reggae",
+                "Dancehall",
+                "Rocksteady"
+            ],
+            "genretags": [
+                "Dub",
+                "Roots",
+                "Reggae",
+                "Dancehall",
+                "Rocksteady"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/shebeen-w-generals-hifi-21st-march-22/"
+        },
+        {
+            "id": "shows/al-jourgensen-special-with-heads-on-sticks-20th-march-22",
+            "title": "Al Jourgensen Special w/ Heads on Sticks",
+            "date": "20.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/al-jourgensen-special-with-heads-on-sticks-20th-march-22/0e7e63ff49-1647798511/al-jourgensen-special-with-heads-on-sticks-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/al-jourgensen-special-with-heads-on-sticks-20th-march-22/0e7e63ff49-1647798511/al-jourgensen-special-with-heads-on-sticks-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/al-jourgensen-special-with-heads-on-sticks-20th-march-22/0e7e63ff49-1647798511/al-jourgensen-special-with-heads-on-sticks-25x25.jpg",
+            "artisttag": "Al Jourgensen Special with Heads on Sticks",
+            "genretag": [
+                "Hardcore Punk",
+                "EBM",
+                "Thrash",
+                "Industrial"
+            ],
+            "genretags": [
+                "Hardcore Punk",
+                "EBM",
+                "Thrash",
+                "Industrial"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/al-jourgensen-special-with-heads-on-sticks-20th-march-22/"
+        },
+        {
+            "id": "shows/ancient-astronauts-w-lone-20th-march-22",
+            "title": "Ancient Astronauts w/ Lone",
+            "date": "20.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/ancient-astronauts-w-lone-20th-march-22/f1d9a1cb31-1647941253/02-lone-900x-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/ancient-astronauts-w-lone-20th-march-22/f1d9a1cb31-1647941253/02-lone-900x-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/ancient-astronauts-w-lone-20th-march-22/f1d9a1cb31-1647941253/02-lone-900x-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Ambient",
+                "Experimental",
+                "Downtempo"
+            ],
+            "genretags": [
+                "Ambient",
+                "Experimental",
+                "Downtempo"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/ancient-astronauts-w-lone-20th-march-22/"
+        },
+        {
+            "id": "shows/dar-disku-radio-laziz-20th-march-22",
+            "title": "DAR DISKU: RADIO LAZIZ راديوا لزيز",
+            "date": "20.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/dar-disku-radio-laziz-20th-march-22/2f75037e6c-1647940664/screenshot-2022-03-22-at-09-16-47-175x.png 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/dar-disku-radio-laziz-20th-march-22/2f75037e6c-1647940664/screenshot-2022-03-22-at-09-16-47-225x.png 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/dar-disku-radio-laziz-20th-march-22/2f75037e6c-1647940664/screenshot-2022-03-22-at-09-16-47-25x25.png",
+            "artisttag": null,
+            "genretag": [
+                "Classic Disco",
+                "Cosmic",
+                "Arabic Traditional",
+                "Zouk",
+                "Dub"
+            ],
+            "genretags": [
+                "Classic Disco",
+                "Cosmic",
+                "Arabic Traditional",
+                "Zouk",
+                "Dub"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/dar-disku-radio-laziz-20th-march-22/"
+        },
+        {
+            "id": "shows/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22",
+            "title": "Through The Years - Ethio Jazz special w/ The Grey Area",
+            "date": "20.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/e3c6f2ec32-1647941021/etho-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/e3c6f2ec32-1647941021/etho-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/e3c6f2ec32-1647941021/etho-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Ethiopiques",
+                "Jazz"
+            ],
+            "genretags": [
+                "Ethiopiques",
+                "Jazz"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22/"
+        },
+        {
+            "id": "shows/umbilical-chords-20th-march-22",
+            "title": "Umbilical Chords w/ Iowan & Lazy Susan",
+            "date": "20.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/umbilical-chords-20th-march-22/ae533babeb-1647947566/screenshot-2022-03-22-at-11-08-45-175x.png 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/umbilical-chords-20th-march-22/ae533babeb-1647947566/screenshot-2022-03-22-at-11-08-45-225x.png 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/umbilical-chords-20th-march-22/ae533babeb-1647947566/screenshot-2022-03-22-at-11-08-45-25x25.png",
+            "artisttag": null,
+            "genretag": [
+                "Trance",
+                "Downtempo",
+                "Hip-Hop",
+                "Slow Jams",
+                "Beats"
+            ],
+            "genretags": [
+                "Trance",
+                "Downtempo",
+                "Hip-Hop",
+                "Slow Jams",
+                "Beats"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/umbilical-chords-20th-march-22/"
+        },
+        {
+            "id": "shows/fruit-machine-19th-march-22",
+            "title": "Fruit Machine",
+            "date": "19.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/fruit-machine-19th-march-22/86eb86139f-1647948155/fruit-machine-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/fruit-machine-19th-march-22/86eb86139f-1647948155/fruit-machine-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/fruit-machine-19th-march-22/86eb86139f-1647948155/fruit-machine-25x25.jpg",
+            "artisttag": "Fruit Machine",
+            "genretag": [
+                "Classic Disco",
+                "House"
+            ],
+            "genretags": [
+                "Classic Disco",
+                "House"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/fruit-machine-19th-march-22/"
+        },
+        {
+            "id": "shows/gracie-t-w-adeevah-19th-march-22",
+            "title": "Gracie T w/ Adeevah",
+            "date": "19.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/gracie-t-w-adeevah-19th-march-22/16d2a5a7b4-1648113757/screenshot-2022-03-24-at-09-20-12-175x.png 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/gracie-t-w-adeevah-19th-march-22/16d2a5a7b4-1648113757/screenshot-2022-03-24-at-09-20-12-225x.png 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/gracie-t-w-adeevah-19th-march-22/16d2a5a7b4-1648113757/screenshot-2022-03-24-at-09-20-12-25x25.png",
+            "artisttag": "gracie t",
+            "genretag": [
+                "Beats",
+                "Dancehall",
+                "Bass"
+            ],
+            "genretags": [
+                "Beats",
+                "Dancehall",
+                "Bass"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/gracie-t-w-adeevah-19th-march-22/"
+        },
+        {
+            "id": "shows/invocation-martha-skye-murphy-18th-march-22",
+            "title": "Invocation / Martha Skye Murphy",
+            "date": "18.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/invocation-martha-skye-murphy-18th-march-22/189120ec10-1647940321/img-7890-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/invocation-martha-skye-murphy-18th-march-22/189120ec10-1647940321/img-7890-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/invocation-martha-skye-murphy-18th-march-22/189120ec10-1647940321/img-7890-25x25.jpg",
+            "artisttag": "martha skye",
+            "genretag": [
+                "Choral",
+                "Experimental",
+                "Ambient",
+                "Field Recordings"
+            ],
+            "genretags": [
+                "Choral",
+                "Experimental",
+                "Ambient",
+                "Field Recordings"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/invocation-martha-skye-murphy-18th-march-22/"
+        },
+        {
+            "id": "shows/mjk-w-neffa-t-18-03-22",
+            "title": "MJK w/ Neffa T",
+            "date": "18.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/mjk-w-neffa-t-18-03-22/5bb17b2891-1647639709/25-mjk-175x.png 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/mjk-w-neffa-t-18-03-22/5bb17b2891-1647639709/25-mjk-225x.png 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/mjk-w-neffa-t-18-03-22/5bb17b2891-1647639709/25-mjk-25x25.png",
+            "artisttag": "MJK, Neffa-T",
+            "genretag": [
+                "Grime",
+                "Bass",
+                "Dubstep",
+                "Club"
+            ],
+            "genretags": [
+                "Grime",
+                "Bass",
+                "Dubstep",
+                "Club"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/mjk-w-neffa-t-18th-march-22/"
+        },
+        {
+            "id": "shows/queen-latifah-birthday-special-w-sadsugar-18th-march-22",
+            "title": "Queen Latifah 'Birthday Special' w/ Sadsugar",
+            "date": "18.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/queen-latifah-birthday-special-w-sadsugar-18th-march-22/d9e715516d-1648113123/screenshot-2022-03-24-at-09-10-10-175x.png 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/queen-latifah-birthday-special-w-sadsugar-18th-march-22/d9e715516d-1648113123/screenshot-2022-03-24-at-09-10-10-225x.png 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/queen-latifah-birthday-special-w-sadsugar-18th-march-22/d9e715516d-1648113123/screenshot-2022-03-24-at-09-10-10-25x25.png",
+            "artisttag": null,
+            "genretag": [
+                "Classic Hip-Hop",
+                "Hip-Hop",
+                "R&B"
+            ],
+            "genretags": [
+                "Classic Hip-Hop",
+                "Hip-Hop",
+                "R&B"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/queen-latifah-birthday-special-w-sadsugar-18th-march-22/"
+        },
+        {
+            "id": "shows/accidental-meetings-w-malvern-brume-lucien-douglas-17th-march-22",
+            "title": "Accidental meetings w/ Malvern Brume & Lucien Douglas",
+            "date": "17.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/accidental-meetings-w-malvern-brume-lucien-douglas-17th-march-22/ffe2f74291-1647628295/img-9800-1-2-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/accidental-meetings-w-malvern-brume-lucien-douglas-17th-march-22/ffe2f74291-1647628295/img-9800-1-2-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/accidental-meetings-w-malvern-brume-lucien-douglas-17th-march-22/ffe2f74291-1647628295/img-9800-1-2-25x25.jpg",
+            "artisttag": "Malvern Brume",
+            "genretag": [
+                "Field Recordings",
+                "Experimental"
+            ],
+            "genretags": [
+                "Field Recordings",
+                "Experimental"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/accidential-meetings-w-malvern-brume-lucien-douglas-17th-march-22/"
+        }
+    ],
+    "latest": [
+        {
+            "id": "shows/misumi-beach-selections-w-matthias-fiedler-26th-march-22",
+            "title": "misumi-beach-selections-w-matthias-fiedler-26th-march-22",
+            "date": "26.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/misumi-beach-selections-w-matthias-fiedler-26th-march-22/33b052c8e8-1648152092/26-misumi-beach-selections-w-matthias-fiedler-mar-26-2022-without-template-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/misumi-beach-selections-w-matthias-fiedler-26th-march-22/33b052c8e8-1648152092/26-misumi-beach-selections-w-matthias-fiedler-mar-26-2022-without-template-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/misumi-beach-selections-w-matthias-fiedler-26th-march-22/33b052c8e8-1648152092/26-misumi-beach-selections-w-matthias-fiedler-mar-26-2022-without-template-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "House",
+                "Breaks",
+                "Soul"
+            ],
+            "genretags": [
+                "House",
+                "Breaks",
+                "Soul"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/misumi-beach-selections-w-matthias-fiedler-26th-march-22"
+        },
+        {
+            "id": "shows/christophe-24th-march-22",
+            "title": "Christophe",
+            "date": "24.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/christophe-24th-march-22/6271416908-1648149332/24-christophe-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/christophe-24th-march-22/6271416908-1648149332/24-christophe-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/christophe-24th-march-22/6271416908-1648149332/24-christophe-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "House",
+                "Ambient",
+                "Downtempo"
+            ],
+            "genretags": [
+                "House",
+                "Ambient",
+                "Downtempo"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/christophe-24th-march-22/"
+        },
+        {
+            "id": "shows/cafe-noche-23rd-march-22",
+            "title": "Café Noche",
+            "date": "23.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/cafe-noche-23rd-march-22/a313b83c99-1648116873/cafe-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/cafe-noche-23rd-march-22/a313b83c99-1648116873/cafe-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/cafe-noche-23rd-march-22/a313b83c99-1648116873/cafe-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Leftfield Techno",
+                "Jazz Fusion",
+                "Chug",
+                "Trance",
+                "Opera"
+            ],
+            "genretags": [
+                "Leftfield Techno",
+                "Jazz Fusion",
+                "Chug",
+                "Trance",
+                "Opera"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/caf%C3%A9-noche-23rd-march-22/"
+        },
+        {
+            "id": "shows/faustine-23rd-march-22",
+            "title": "Faustine",
+            "date": "23.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/faustine-23rd-march-22/c04d507481-1648117032/img-6960-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/faustine-23rd-march-22/c04d507481-1648117032/img-6960-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/faustine-23rd-march-22/c04d507481-1648117032/img-6960-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Experimental",
+                "Post-Punk",
+                "Cold wave",
+                "Dub"
+            ],
+            "genretags": [
+                "Experimental",
+                "Post-Punk",
+                "Cold wave",
+                "Dub"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/faustine-23rd-march-22/"
+        },
+        {
+            "id": "shows/howl-w-golem-23rd-march-22",
+            "title": "howl w/ golem",
+            "date": "23.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/howl-w-golem-23rd-march-22/80b6ae73ba-1648115979/23-howl-w-golem-no-template-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/howl-w-golem-23rd-march-22/80b6ae73ba-1648115979/23-howl-w-golem-no-template-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/howl-w-golem-23rd-march-22/80b6ae73ba-1648115979/23-howl-w-golem-no-template-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Drum & Bass",
+                "Experimental"
+            ],
+            "genretags": [
+                "Drum & Bass",
+                "Experimental"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/howl-w-golem-23rd-march-22/"
+        },
+        {
+            "id": "shows/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22",
+            "title": "Join The Future: A History of Bassline - Part 2 (2005-2022)",
+            "date": "23.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22/52f499e4a8-1648117953/jtd-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22/52f499e4a8-1648117953/jtd-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22/52f499e4a8-1648117953/jtd-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Bassline",
+                "Interview"
+            ],
+            "genretags": [
+                "Bassline",
+                "Interview"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22/"
+        },
+        {
+            "id": "shows/love-is-on-my-side-23rd-march-22",
+            "title": "Love is on my side",
+            "date": "23.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/love-is-on-my-side-23rd-march-22/3ea3af4813-1648117645/love-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/love-is-on-my-side-23rd-march-22/3ea3af4813-1648117645/love-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/love-is-on-my-side-23rd-march-22/3ea3af4813-1648117645/love-25x25.jpg",
+            "artisttag": "love is on my side",
+            "genretag": [
+                "Minimal Synth",
+                "Dark-Wave",
+                "Synthwave",
+                "Synth Pop",
+                "New Wave"
+            ],
+            "genretags": [
+                "Minimal Synth",
+                "Dark-Wave",
+                "Synthwave",
+                "Synth Pop",
+                "New Wave"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/love-is-on-my-side-23rd-march-22/"
+        },
+        {
+            "id": "shows/raash-records-w-rasham-23rd-march-22",
+            "title": "Raash Records w/ RASHAM",
+            "date": "23.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/raash-records-w-rasham-23rd-march-22/f834e759ed-1648116653/image-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/raash-records-w-rasham-23rd-march-22/f834e759ed-1648116653/image-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/raash-records-w-rasham-23rd-march-22/f834e759ed-1648116653/image-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Noise",
+                "Industrial",
+                "Experimental"
+            ],
+            "genretags": [
+                "Noise",
+                "Industrial",
+                "Experimental"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/raash-records-w-rasham-23rd-march-22/"
+        },
+        {
+            "id": "shows/uk-solemn-w-sid-quirk-23rd-march-22",
+            "title": "UK Solemn w/ Sid Quirk",
+            "date": "23.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/uk-solemn-w-sid-quirk-23rd-march-22/4cf9c8d772-1648115904/sid-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/uk-solemn-w-sid-quirk-23rd-march-22/4cf9c8d772-1648115904/sid-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/uk-solemn-w-sid-quirk-23rd-march-22/4cf9c8d772-1648115904/sid-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Dub Techno",
+                "Glitch",
+                "Experimental",
+                "Ambient",
+                "IDM"
+            ],
+            "genretags": [
+                "Dub Techno",
+                "Glitch",
+                "Experimental",
+                "Ambient",
+                "IDM"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/uk-solemn-w-sid-quirk-23rd-march-22/"
+        },
+        {
+            "id": "shows/billie-george-22nd-march-22",
+            "title": "Billie George",
+            "date": "22.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/billie-george-22nd-march-22/a5b4005a47-1648050859/22-billie-george-w-o-text-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/billie-george-22nd-march-22/a5b4005a47-1648050859/22-billie-george-w-o-text-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/billie-george-22nd-march-22/a5b4005a47-1648050859/22-billie-george-w-o-text-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Funk",
+                "Latin",
+                "Folk",
+                "Hip-Hop",
+                "Soul"
+            ],
+            "genretags": [
+                "Funk",
+                "Latin",
+                "Folk",
+                "Hip-Hop",
+                "Soul"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/billie-george-22nd-march-22/"
+        },
+        {
+            "id": "shows/crest-of-a-wave-1982-special-22nd-march-22",
+            "title": "Crest of a Wave '1982 Special'",
+            "date": "22.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/crest-of-a-wave-1982-special-22nd-march-22/864dea46f6-1648114793/198-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/crest-of-a-wave-1982-special-22nd-march-22/864dea46f6-1648114793/198-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/crest-of-a-wave-1982-special-22nd-march-22/864dea46f6-1648114793/198-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Synth Pop",
+                "Classic Disco",
+                "Experimental"
+            ],
+            "genretags": [
+                "Synth Pop",
+                "Classic Disco",
+                "Experimental"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/crest-of-a-wave-1982-special-22nd-march-22/"
+        },
+        {
+            "id": "shows/dark-lord-of-the-vaults-22nd-march-22",
+            "title": "Dark Lord Of The Vaults",
+            "date": "22.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/dark-lord-of-the-vaults-22nd-march-22/e715199a17-1647976000/22-dark-lords-of-the-vaults-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/dark-lord-of-the-vaults-22nd-march-22/e715199a17-1647976000/22-dark-lords-of-the-vaults-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/dark-lord-of-the-vaults-22nd-march-22/e715199a17-1647976000/22-dark-lords-of-the-vaults-25x25.jpg",
+            "artisttag": "Dark Lord Of The Vault",
+            "genretag": [
+                "Jazz",
+                "Spoken Word",
+                "Hip-Hop",
+                "Folk",
+                "Electro"
+            ],
+            "genretags": [
+                "Jazz",
+                "Spoken Word",
+                "Hip-Hop",
+                "Folk",
+                "Electro"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/dark-lord-of-the-vaults-22nd-march-22/"
+        },
+        {
+            "id": "shows/falling-forwards-w-rita-maomenos-22nd-march-22",
+            "title": "Falling Forwards w/ Rita Maomenos",
+            "date": "22.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/falling-forwards-w-rita-maomenos-22nd-march-22/a09ab5a036-1648074362/img20200422-17535732-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/falling-forwards-w-rita-maomenos-22nd-march-22/a09ab5a036-1648074362/img20200422-17535732-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/falling-forwards-w-rita-maomenos-22nd-march-22/a09ab5a036-1648074362/img20200422-17535732-25x25.jpg",
+            "artisttag": "Falling Forwards w/ Rita Maomenos",
+            "genretag": [
+                "Techno",
+                "Experimental",
+                "Broken Beat"
+            ],
+            "genretags": [
+                "Techno",
+                "Experimental",
+                "Broken Beat"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rita-maomenos-22nd-march-22/"
+        },
+        {
+            "id": "shows/fringe-white-w-lurka-22nd-march-22",
+            "title": "Fringe White w/ Lurka",
+            "date": "22.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/fringe-white-w-lurka-22nd-march-22/ec4e54ee56-1648051509/22-fringe-white-with-lurka-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/fringe-white-w-lurka-22nd-march-22/ec4e54ee56-1648051509/22-fringe-white-with-lurka-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/fringe-white-w-lurka-22nd-march-22/ec4e54ee56-1648051509/22-fringe-white-with-lurka-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "House",
+                "Ambient",
+                "UK Techno"
+            ],
+            "genretags": [
+                "House",
+                "Ambient",
+                "UK Techno"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/fringe-white-w-lurka-22nd-march-22/"
+        },
+        {
+            "id": "shows/generation-lost-22nd-march-22",
+            "title": "Generation Lost",
+            "date": "22.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/generation-lost-22nd-march-22/928d2c2d2b-1648070842/22-gentalk3-generation-lost-march2022-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/generation-lost-22nd-march-22/928d2c2d2b-1648070842/22-gentalk3-generation-lost-march2022-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/generation-lost-22nd-march-22/928d2c2d2b-1648070842/22-gentalk3-generation-lost-march2022-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Interview"
+            ],
+            "genretags": [
+                "Interview"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/generation-lost-22nd-march-22/"
+        },
+        {
+            "id": "shows/magic-carpet-ride-w-chez-de-mil-22nd-march-22",
+            "title": "Magic Carpet Ride w/ Chez De Milo",
+            "date": "22.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/magic-carpet-ride-w-chez-de-mil-22nd-march-22/472729f3b8-1648072379/mcr001sc-march22-2-175x.jpg 175w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/magic-carpet-ride-w-chez-de-mil-22nd-march-22/472729f3b8-1648072379/mcr001sc-march22-2-225x.jpg 225w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/magic-carpet-ride-w-chez-de-mil-22nd-march-22/472729f3b8-1648072379/mcr001sc-march22-2-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "New Beat",
+                "Post-Punk",
+                "Psychedelic"
+            ],
+            "genretags": [
+                "New Beat",
+                "Post-Punk",
+                "Psychedelic"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/magic-carpet-ride-w-chez-de-mil-22nd-march-22/"
+        }
+    ]
+}

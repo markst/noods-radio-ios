@@ -1,11 +1,14 @@
 import XCTest
 import RxBlocking
+import Moya
 
 @testable import NoodsRadio
 
 class RepositoryTests: XCTestCase {
 
-  var repository: NoodsRepository = Repository()
+  var repository: NoodsRepository = Repository(
+    provider: .init(stubClosure: MoyaProvider.immediatelyStub)
+  )
 
   override func setUpWithError() throws {
 
@@ -37,6 +40,15 @@ class RepositoryTests: XCTestCase {
     XCTAssertEqual(showDetail?.title, "Through The Years - Ethio Jazz special w/ The Grey Area")
   }
 
+  func testShowDetailOnline404() throws {
+    let showDetail = repository
+      .showDetail(id: "shows/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-21")
+      .debug()
+      .toBlocking()
+
+    XCTAssertThrowsError(try showDetail.first())
+  }
+
   func testShowDetailEmptyTracklist() throws {
     let showDetail = try repository
       .showDetail(id: "shows/rain-world-21st-march-22")
@@ -45,15 +57,6 @@ class RepositoryTests: XCTestCase {
       .first()
 
     XCTAssertNil(showDetail?.tracklist)
-  }
-
-  func testShowDetailOnline404() throws {
-    let showDetail = repository
-      .showDetail(id: "shows/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-21")
-      .debug()
-      .toBlocking()
-
-    XCTAssertThrowsError(try showDetail.first())
   }
 
   func testShowsOnlinePerformance() throws {

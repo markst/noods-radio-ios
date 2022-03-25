@@ -1,0 +1,635 @@
+{
+    "title": "Rain World 'The Progues Special'",
+    "slug": "rain-world-21st-march-22",
+    "ogimage": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/rain-world-21st-march-22/2d662527bd-1647551743/20-rain-world-w-the-pogues-special-800x800.jpg",
+    "ogdescription": "21.03.22 This month we are celebrating St Patrick's Day with an hour special from one of our all time favourite bands...The Pogues. Grab a pint of Guinness, get your leather webs on and get jiggin!",
+    "date": "21.03.22",
+    "artisttag": [],
+    "description": {
+        "html": "<p>This month we are celebrating St Patrick's Day with an hour special from one of our all time favourite bands...The Pogues. Grab a pint of Guinness, get your leather webs on and get jiggin!</p>"
+    },
+    "residentId": "residents/rain-world",
+    "genretag": [
+        "Rock",
+        "Folk",
+        "Punk"
+    ],
+    "genretags": [
+        "Rock",
+        "Folk",
+        "Punk"
+    ],
+    "tracklist": "",
+    "guestmix": false,
+    "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/rain-world-21st-march-22/2d662527bd-1647551743/20-rain-world-w-the-pogues-special-450x.jpg 450w, https://www.panel.noodsradio.com/media/pages/shows/2022/03/rain-world-21st-march-22/2d662527bd-1647551743/20-rain-world-w-the-pogues-special-900x.jpg 900w",
+    "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/rain-world-21st-march-22/2d662527bd-1647551743/20-rain-world-w-the-pogues-special-100x100.jpg",
+    "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-21st-march-22/",
+    "resident": [
+        {
+            "id": "residents/rain-world",
+            "title": "Rain World",
+            "residenttag": "Rain world",
+            "about": {
+                "html": ""
+            },
+            "aboutSanitized": "",
+            "image": "https://www.panel.noodsradio.com/media/pages/residents/rain-world/2b9e633fc8-1605874044/19-rain-world-1200x1200-715x400.jpg"
+        }
+    ],
+    "showsbyartist": [
+        {
+            "id": "shows/rain-world-21st-february-22",
+            "title": "Rain World",
+            "date": "21.02.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/02/rain-world-21st-february-22/0eb910c792-1645519464/rw-art-21-02-22-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/02/rain-world-21st-february-22/0eb910c792-1645519464/rw-art-21-02-22-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Rockabilly",
+                "Country",
+                "Doo Wop",
+                "Rock N Roll"
+            ],
+            "genretags": [
+                "Rockabilly",
+                "Country",
+                "Doo Wop",
+                "Rock N Roll"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-21st-february-22/"
+        },
+        {
+            "id": "shows/rain-world-17th-january-22",
+            "title": "Rain World",
+            "date": "17.01.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/01/rain-world-17th-january-22/461aab3ce2-1642449668/rain-world-art-245x.png 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/01/rain-world-17th-january-22/461aab3ce2-1642449668/rain-world-art-25x25.png",
+            "artisttag": null,
+            "genretag": [
+                "Folk",
+                "Soul",
+                "Psychedelic Rock",
+                "Punk",
+                "Alternative Rock"
+            ],
+            "genretags": [
+                "Folk",
+                "Soul",
+                "Psychedelic Rock",
+                "Punk",
+                "Alternative Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-17th-january-22/"
+        },
+        {
+            "id": "shows/rain-world-x-swirlies-special-15th-november-21",
+            "title": "Rain World X Swirlies Special",
+            "date": "15.11.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/11/rain-world-x-swirlies-special-15th-november-21/0730453241-1637419318/image0-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/11/rain-world-x-swirlies-special-15th-november-21/0730453241-1637419318/image0-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Noise Rock",
+                "Shoegaze",
+                "Art Rock",
+                "Grunge",
+                "Punk"
+            ],
+            "genretags": [
+                "Noise Rock",
+                "Shoegaze",
+                "Art Rock",
+                "Grunge",
+                "Punk"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-x-swirlies-special-15th-november-21/"
+        },
+        {
+            "id": "shows/rain-world-18th-october-21",
+            "title": "Rain World",
+            "date": "18.10.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/10/rain-world-18th-october-21/28b97c3812-1634738022/rw2-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/10/rain-world-18th-october-21/28b97c3812-1634738022/rw2-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Pop",
+                "Shoegaze",
+                "Psychedelic Rock",
+                "Garage Rock"
+            ],
+            "genretags": [
+                "Pop",
+                "Shoegaze",
+                "Psychedelic Rock",
+                "Garage Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-18th-october-21/"
+        },
+        {
+            "id": "shows/nivarna-special-w-rain-world-24th-september-21",
+            "title": "An Hour For Nivarna w/ RAIN WORLD",
+            "date": "24.09.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/09/nivarna-special-w-rain-world-24th-september-21/cacd573dcc-1632499446/kurt-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/09/nivarna-special-w-rain-world-24th-september-21/cacd573dcc-1632499446/kurt-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Grunge",
+                "Rock",
+                "Metal"
+            ],
+            "genretags": [
+                "Grunge",
+                "Rock",
+                "Metal"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/nivarna-special-wrain-world-24th-september-21/"
+        },
+        {
+            "id": "shows/rain-world-19-july-21",
+            "title": "Rain World",
+            "date": "19.07.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/07/rain-world-19-july-21/77114a53f0-1626867143/rw-19-07-21-art-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/07/rain-world-19-july-21/77114a53f0-1626867143/rw-19-07-21-art-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Classic Rock",
+                "New Wave",
+                "Rock"
+            ],
+            "genretags": [
+                "Classic Rock",
+                "New Wave",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-19th-july-21/"
+        },
+        {
+            "id": "shows/rain-world-17th-may-21",
+            "title": "Rain World",
+            "date": "17.05.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/rain-world-17th-may-21/047e4df8ca-1621407027/screenshot-2021-05-19-at-07-50-15-245x.png 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/05/rain-world-17th-may-21/047e4df8ca-1621407027/screenshot-2021-05-19-at-07-50-15-25x25.png",
+            "artisttag": null,
+            "genretag": [
+                "Country",
+                "Alternative Rock",
+                "Garage Rock",
+                "Post-Punk",
+                "Punk"
+            ],
+            "genretags": [
+                "Country",
+                "Alternative Rock",
+                "Garage Rock",
+                "Post-Punk",
+                "Punk"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-17th-may-21/"
+        },
+        {
+            "id": "shows/rainworld-19th-april-21",
+            "title": "Rain World",
+            "date": "19.04.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/04/rainworld-19th-april-21/46a07b4d42-1618922353/noods-art-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/04/rainworld-19th-april-21/46a07b4d42-1618922353/noods-art-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Psychedelic Rock",
+                "Art Rock",
+                "Folk",
+                "Rock",
+                "Shoegaze"
+            ],
+            "genretags": [
+                "Psychedelic Rock",
+                "Art Rock",
+                "Folk",
+                "Rock",
+                "Shoegaze"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rainworld-19th-april-21/"
+        },
+        {
+            "id": "shows/rain-world-15th-march-21",
+            "title": "Rain World",
+            "date": "15.03.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/03/rain-world-15th-march-21/b9dc06a6ea-1615843936/rw-art-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/03/rain-world-15th-march-21/b9dc06a6ea-1615843936/rw-art-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Drone",
+                "Art Rock",
+                "Psychedelic Rock",
+                "Shoegaze",
+                "Post-Punk"
+            ],
+            "genretags": [
+                "Drone",
+                "Art Rock",
+                "Psychedelic Rock",
+                "Shoegaze",
+                "Post-Punk"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-15th-march-21/"
+        },
+        {
+            "id": "shows/rain-world-15th-february-21",
+            "title": "Rain World",
+            "date": "15.02.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/02/rain-world-15th-february-21/b526048dab-1613479908/rain-world-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/02/rain-world-15th-february-21/b526048dab-1613479908/rain-world-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Post-Hardcore",
+                "Punk",
+                "Thrash",
+                "Rock"
+            ],
+            "genretags": [
+                "Post-Hardcore",
+                "Punk",
+                "Thrash",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-15th-february-21/"
+        },
+        {
+            "id": "shows/rain-world-18th-january-21",
+            "title": "Rain World",
+            "date": "18.01.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/01/rain-world-18th-january-21/adac95a1c4-1611090573/rw1-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/01/rain-world-18th-january-21/adac95a1c4-1611090573/rw1-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Punk",
+                "Rock"
+            ],
+            "genretags": [
+                "Punk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-18th-january-21/"
+        },
+        {
+            "id": "shows/rain-world-w-leo-poulson-23rd-november-20",
+            "title": "Rain World w/ Leo Poulson",
+            "date": "23.11.20",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2020/11/rain-world-w-leo-poulson-23rd-november-20/0f9f3b7488-1606250280/rw-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2020/11/rain-world-w-leo-poulson-23rd-november-20/0f9f3b7488-1606250280/rw-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Post-Punk",
+                "Rockabilly"
+            ],
+            "genretags": [
+                "Post-Punk",
+                "Rockabilly"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/rain-world-w-leo-poulson-23rd-november-20/"
+        }
+    ],
+    "similarshows": [
+        {
+            "id": "shows/breakfast-records-4th-october-19",
+            "title": "Breakfast Records",
+            "date": "04.10.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/10/breakfast-records-4th-october-19/d0644e294d-1605874043/02-breakfast-records-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/10/breakfast-records-4th-october-19/d0644e294d-1605874043/02-breakfast-records-25x25.jpg",
+            "artisttag": "breakfast records",
+            "genretag": [
+                "Country",
+                "Folk",
+                "Indie",
+                "Punk",
+                "Rock"
+            ],
+            "genretags": [
+                "Country",
+                "Folk",
+                "Indie",
+                "Punk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/breakfast-records-4th-october-19/"
+        },
+        {
+            "id": "shows/gork-20th-june-19",
+            "title": "Gork",
+            "date": "20.06.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/06/gork-20th-june-19/46a4a17c92-1605874043/20-gork-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/06/gork-20th-june-19/46a4a17c92-1605874043/20-gork-25x25.jpg",
+            "artisttag": "Gork",
+            "genretag": [
+                "Folk",
+                "Psychedelic",
+                "Punk",
+                "Rock"
+            ],
+            "genretags": [
+                "Folk",
+                "Psychedelic",
+                "Punk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/gork-20th-june-19/"
+        },
+        {
+            "id": "shows/breakfast-records-2nd-september-21",
+            "title": "Breakfast Records",
+            "date": "02.09.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/09/breakfast-records-2nd-september-21/d35f6cd052-1630589364/02-breakfast-records-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/09/breakfast-records-2nd-september-21/d35f6cd052-1630589364/02-breakfast-records-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Rock",
+                "Country",
+                "Indie",
+                "Folk"
+            ],
+            "genretags": [
+                "Rock",
+                "Country",
+                "Indie",
+                "Folk"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/breakfast-records-2nd-september-21/"
+        },
+        {
+            "id": "shows/stolen-body-records-16th-february-22",
+            "title": "Stolen Body Records",
+            "date": "16.02.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/02/stolen-body-records-16th-february-22/c116a30200-1645010329/16-02-22-stolen-body-records-no-template-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/02/stolen-body-records-16th-february-22/c116a30200-1645010329/16-02-22-stolen-body-records-no-template-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Rock",
+                "Classic Rock",
+                "Metal",
+                "Folk",
+                "Grunge"
+            ],
+            "genretags": [
+                "Rock",
+                "Classic Rock",
+                "Metal",
+                "Folk",
+                "Grunge"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/stolen-body-records-16th-february-22/"
+        },
+        {
+            "id": "shows/breakfast-records-1st-march-22",
+            "title": "Breakfast Records",
+            "date": "01.03.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/breakfast-records-1st-march-22/1a0d3bd9f8-1646140278/screenshot-2022-03-01-at-13-04-25-245x.png 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/03/breakfast-records-1st-march-22/1a0d3bd9f8-1646140278/screenshot-2022-03-01-at-13-04-25-25x25.png",
+            "artisttag": null,
+            "genretag": [
+                "Indie",
+                "Folk",
+                "Country",
+                "Rock"
+            ],
+            "genretags": [
+                "Indie",
+                "Folk",
+                "Country",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/breakfast-records-1st-march-22/"
+        },
+        {
+            "id": "shows/jamie-cruickshank-9th-september-19",
+            "title": "Jamie Cruickshank",
+            "date": "09.09.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/09/jamie-cruickshank-9th-september-19/fe193af638-1605874043/09-jamie-cruickshank-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/09/jamie-cruickshank-9th-september-19/fe193af638-1605874043/09-jamie-cruickshank-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Blues",
+                "Folk",
+                "Rock"
+            ],
+            "genretags": [
+                "Blues",
+                "Folk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/jamie-cruickshank-9th-september-19/"
+        },
+        {
+            "id": "shows/vinegar-20th-september-19",
+            "title": "Vinegar",
+            "date": "20.09.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/09/vinegar-20th-september-19/f079ede9af-1605874043/20-vinegar-show-1-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/09/vinegar-20th-september-19/f079ede9af-1605874043/20-vinegar-show-1-25x25.jpg",
+            "artisttag": "Vinegar",
+            "genretag": [
+                "Folk",
+                "Psychedelic",
+                "Rock"
+            ],
+            "genretags": [
+                "Folk",
+                "Psychedelic",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/vinegar-20th-september-19/"
+        },
+        {
+            "id": "shows/breakfast-records-1st-november-19",
+            "title": "Breakfast Records",
+            "date": "01.11.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/11/breakfast-records-1st-november-19/d9d75c822f-1605874043/07-breakfastclub-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/11/breakfast-records-1st-november-19/d9d75c822f-1605874043/07-breakfastclub-25x25.jpg",
+            "artisttag": "breakfast records",
+            "genretag": [
+                "Country",
+                "Folk",
+                "Indie",
+                "Post-Punk",
+                "Rock"
+            ],
+            "genretags": [
+                "Country",
+                "Folk",
+                "Indie",
+                "Post-Punk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/breakfast-records-1st-november-19/"
+        },
+        {
+            "id": "shows/breakfast-records-23rd-april-19",
+            "title": "Breakfast Records",
+            "date": "23.04.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/04/breakfast-records-23rd-april-19/89753517ad-1605874043/23-breeakfast-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/04/breakfast-records-23rd-april-19/89753517ad-1605874043/23-breeakfast-25x25.jpg",
+            "artisttag": "breakfast records",
+            "genretag": [
+                "Folk",
+                "Rock"
+            ],
+            "genretags": [
+                "Folk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/breakfast-records-23rd-april-19/"
+        },
+        {
+            "id": "shows/dusty-grooves-11th-august-19",
+            "title": "Dusty Grooves",
+            "date": "11.08.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/08/dusty-grooves-11th-august-19/12ee6b8e3e-1605874043/11-dusty-grooves-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/08/dusty-grooves-11th-august-19/12ee6b8e3e-1605874043/11-dusty-grooves-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Classic Disco",
+                "Funk",
+                "Psychedelic",
+                "Punk",
+                "Rock"
+            ],
+            "genretags": [
+                "Classic Disco",
+                "Funk",
+                "Psychedelic",
+                "Punk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/dusty-grooves-11th-august-19/"
+        },
+        {
+            "id": "shows/few-far-between-w-sam-hall",
+            "title": "Few & Far Between w/ Sam Hall",
+            "date": "08.12.20",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2020/12/few-far-between-w-sam-hall/d66acb8661-1607460498/8-few-and-far-between-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2020/12/few-far-between-w-sam-hall/d66acb8661-1607460498/8-few-and-far-between-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Post-Punk",
+                "Folk",
+                "Rock"
+            ],
+            "genretags": [
+                "Post-Punk",
+                "Folk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/few-far-between-w-sam-hall-8th-december-20/"
+        },
+        {
+            "id": "shows/circus-underwater-w-jouko-22nd-november-20",
+            "title": "Circus Underwater w/ Jouko",
+            "date": "22.11.20",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2020/11/circus-underwater-w-jouko-22nd-november-20/20e11f2e29-1606165206/circus-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2020/11/circus-underwater-w-jouko-22nd-november-20/20e11f2e29-1606165206/circus-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Ambient",
+                "Electronica",
+                "Folk",
+                "Funk",
+                "Rock"
+            ],
+            "genretags": [
+                "Ambient",
+                "Electronica",
+                "Folk",
+                "Funk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/circus-underwater-w-jouko-22nd-november-20/"
+        },
+        {
+            "id": "shows/circus-underwater-w-jouko-14th-march-21",
+            "title": "Circus Underwater w/ Jouko",
+            "date": "14.03.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/03/circus-underwater-w-jouko-14th-march-21/38481ca066-1615840916/circus-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/03/circus-underwater-w-jouko-14th-march-21/38481ca066-1615840916/circus-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Jazz",
+                "Funk",
+                "Rock",
+                "Folk",
+                "Psychedelic"
+            ],
+            "genretags": [
+                "Jazz",
+                "Funk",
+                "Rock",
+                "Folk",
+                "Psychedelic"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/circus-underwater-w-jouko-14th-march-21/"
+        },
+        {
+            "id": "shows/expressway-30th-april-19",
+            "title": "Expressway",
+            "date": "30.04.19",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2019/04/expressway-30th-april-19/f9e073d79b-1605874043/expressway-daughters-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2019/04/expressway-30th-april-19/f9e073d79b-1605874043/expressway-daughters-25x25.jpg",
+            "artisttag": "Expressway",
+            "genretag": [
+                "Alternative Rock",
+                "Indie",
+                "New Wave",
+                "Punk",
+                "Rock"
+            ],
+            "genretags": [
+                "Alternative Rock",
+                "Indie",
+                "New Wave",
+                "Punk",
+                "Rock"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/expressway-30th-april-19/"
+        },
+        {
+            "id": "shows/earth-worms-21st-february-22",
+            "title": "Earth Worms",
+            "date": "21.02.22",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2022/02/earth-worms-21st-february-22/c3fbbfd7c8-1645641356/21-earth-worms-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2022/02/earth-worms-21st-february-22/c3fbbfd7c8-1645641356/21-earth-worms-25x25.jpg",
+            "artisttag": "Earth Worms",
+            "genretag": [
+                "Punk",
+                "Post-Punk",
+                "New Wave",
+                "Rock",
+                "Dark-Wave"
+            ],
+            "genretags": [
+                "Punk",
+                "Post-Punk",
+                "New Wave",
+                "Rock",
+                "Dark-Wave"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/earth-worms-21st-february-22/"
+        },
+        {
+            "id": "shows/alexis-w-munchen-konflikt-6th-april-21",
+            "title": "Alexis w/ Munchen Konflikt",
+            "date": "06.04.21",
+            "srcset": "https://www.panel.noodsradio.com/media/pages/shows/2021/04/alexis-w-munchen-konflikt-6th-april-21/14a4f3934f-1617830383/cat-245x.jpg 245w",
+            "artworkSm": "https://www.panel.noodsradio.com/media/pages/shows/2021/04/alexis-w-munchen-konflikt-6th-april-21/14a4f3934f-1617830383/cat-25x25.jpg",
+            "artisttag": null,
+            "genretag": [
+                "Punk",
+                "Experimental",
+                "Folk",
+                "Electronica"
+            ],
+            "genretags": [
+                "Punk",
+                "Experimental",
+                "Folk",
+                "Electronica"
+            ],
+            "mixcloud": "https://www.mixcloud.com/NoodsRadio/alexis-w-munchen-konflikt-6th-april-21/"
+        }
+    ]
+}
