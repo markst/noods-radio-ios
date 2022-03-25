@@ -1,17 +1,30 @@
 import SnapshotTesting
 import XCTest
 import Moya
+import UIKitPlus
 
 @testable import NoodsRadio
 
+
 class ShowsListViewControllerTests: XCTestCase {
   func testShowsListViewController() {
-    assertSnapshot(matching: ShowsListViewController(
+    let vc = ShowsListViewController(
       viewModel: .init(repository: Repository(
         provider: .init(
           stubClosure: MoyaProvider.immediatelyStub)
       ))
-    ), as: .image)
+    )
+
+    // XCUIDevice.shared.orientation = .portrait
+
+    vc.view.widthAnchor
+      .constraint(equalToConstant: 375)
+      .isActive = true
+    vc.view.heightAnchor
+      .constraint(equalToConstant: 812)
+      .isActive = true
+
+    assertSnapshot(matching: vc, as: .image)
   }
 
   func testShowsListViewControllerError() {
