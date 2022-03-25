@@ -43,7 +43,7 @@ extension ShowViewModel {
     self.init(
       identity: "",
       title: error.localizedDescription,
-      date: Date(),
+      date: nil,
       genres: []
     )
   }

@@ -8,10 +8,10 @@ extension ShowViewModel {
     genres: ["HARDCORE PUNK", "EBM", "THRASH", "INDUSTRIAL"]
   )
   
-  init(identity: String, title: String, date: Date, genres: [String]) {
+  init(identity: String, title: String, date: Date?, genres: [String]) {
     self.identity = identity
     self.title = title
-    self.date = date.formatted()
+    self.date = date?.form() ?? ""
     self.image = nil
     self.genres = genres
     self.descriptio = nil
