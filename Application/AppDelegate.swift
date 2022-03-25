@@ -13,6 +13,10 @@ class AppDelegate: BaseApp {
         if ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1" {
           return
         }
+        // Disable animation when UI testing:
+        if ProcessInfo.processInfo.arguments.contains("NoAnimations") {
+          UIView.setAnimationsEnabled(false)
+        }
         // Launch app flow:
         let appFlow = AppFlow(withServices: self.appServices)
 

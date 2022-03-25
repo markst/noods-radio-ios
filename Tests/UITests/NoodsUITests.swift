@@ -15,13 +15,85 @@ class NoodsUITests: XCTestCase {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
   }
   
-  func testExample() throws {
-    // UI tests must launch the application that they test.
+  func testShowDetail() throws {
     let app = XCUIApplication()
+    app.launchArguments = ["NoAnimations"]
     app.launch()
     
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    let cell = app.collectionViews
+      .children(matching: .cell)
+      .element(boundBy: 0)
+    
+    XCTAssertTrue(cell
+      .waitForExistence(timeout: 10)
+    )
+    
+    cell.tap()
+    sleep(1)
+    
+    let playButton = app
+      .scrollViews
+      .otherElements
+      .buttons["noods play"] // TODO: Add `accessibilityIdentifier`.
+    
+    XCTAssertTrue(playButton
+      .waitForExistence(timeout: 10)
+    )
+  }
+  
+  func testPlaybackMixcloudFlow() throws {
+    let app = XCUIApplication()
+    app.launchArguments = ["NoAnimations"]
+    app.launch()
+    
+    let cell = app.collectionViews
+      .children(matching: .cell)
+      .element(boundBy: 0)
+    
+    XCTAssertTrue(cell
+      .waitForExistence(timeout: 10)
+    )
+    
+    cell.tap()
+    sleep(1)
+    
+    let playButton = app
+      .scrollViews
+      .otherElements
+      .buttons["noods play"] // TODO: Add `accessibilityIdentifier`.
+    
+    XCTAssertTrue(playButton
+      .waitForExistence(timeout: 10)
+    )
+    
+    sleep(1)
+    playButton.tap()
+    
+    // Expect `Safari` view controller modal:
+    /*
+     XCTAssertTrue(app.otherElements["BrowserView"]
+     .waitForExistence(timeout: 10)
+     )
+     */
+    
+    let mixCloudPlay = app
+      .webViews
+      .webViews
+      .webViews
+      .images["cloudcast image"]
+    
+    XCTAssertTrue(mixCloudPlay
+      .waitForExistence(timeout: 10)
+    )
+    
+    // Screenshot as UIImage
+    let _ = app.windows
+      .firstMatch
+      .screenshot()
+      .image
+    
+    // Check against baseline
+    // assertSnapshot(matching: screenshot, as: .image)
   }
   
   func testLaunchPerformance() throws {
