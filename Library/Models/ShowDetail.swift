@@ -44,11 +44,13 @@ struct ShowDetail : Codable {
     genreTags = try values.decodeIfPresent([String].self, forKey: .genreTags)
     tracklist = try? values.decodeIfPresent(Description.self, forKey: .tracklist)
     guestmix = try values.decodeIfPresent(Bool.self, forKey: .guestmix)
-    artworkSmall = try values.decodeIfPresent(String.self, forKey: .artworkSmall)
     mixcloud = try values.decodeIfPresent(String.self, forKey: .mixcloud)
     resident = try values.decodeIfPresent([Resident].self, forKey: .resident)
     showsByArtist = try values.decodeIfPresent([Show].self, forKey: .showsByArtist)
     similarShows = try values.decodeIfPresent([Show].self, forKey: .similarShows)
+    artworkSmall = try values
+      .decodeIfPresent(String.self, forKey: .artworkSmall)
+      .map({ $0.replacingOccurrences(of: "jtd-100x100", with: "jtd-25x25") })
   }
 
   init(title: String?,
