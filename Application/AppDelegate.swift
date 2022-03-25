@@ -34,6 +34,9 @@ class AppDelegate: BaseApp {
       .willEnterForeground {
         
       }
+      .supportedInterfaceOrientations { window in
+          .portrait
+      }
 
     MainScene { .splash }
     .splashScreen {
