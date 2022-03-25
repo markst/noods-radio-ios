@@ -8,7 +8,7 @@ class ShowDetailViewTests: XCTestCase {
     assertSnapshot(
       matching: ShowDetailView()
         .size(375, 812)
-        .do({ $0.show = .init(show: ShowDetail.mock) }),
+        .do({ $0.show = ShowViewModel(show: ShowDetail.mock) }),
       as: .image
     )
   }
@@ -17,7 +17,7 @@ class ShowDetailViewTests: XCTestCase {
     assertSnapshot(
       matching: ShowDetailView()
         .size(375, 812)
-        .do({ $0.show = .init(show: Show.mock) }),
+        .do({ $0.show = ShowViewModel(show: Show.mock) }),
       as: .image
     )
   }
