@@ -10,6 +10,7 @@ protocol ShowDetailProtocol: Stepper {
 
   func showDetail() -> Observable<ShowViewModel>
   func playShow(url: URL)
+  func cloudcast(with url: URL) throws -> Observable<MixCloudGraphResponse.MixCloudGraphData.Cloudcast?>
 }
 
 struct ShowDetailViewModel: ShowDetailProtocol {
