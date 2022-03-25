@@ -79,6 +79,7 @@ class ShowsListViewController: ViewController {
         disposeBag.insert(
             viewModel
                 .dataSource
+                .catch({ .just([ ShowViewModel(error: $0) ]) })
                 .map({ [ AnimatableSectionModel<String, ShowViewModel>(
                     model: "Show",
                     items: $0

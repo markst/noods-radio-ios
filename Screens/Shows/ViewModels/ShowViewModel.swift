@@ -37,3 +37,14 @@ struct ShowViewModel: Equatable, IdentifiableType {
     self.mixcloud = try? show.mixcloud?.asURL()
   }
 }
+
+extension ShowViewModel {
+  init(error: Error) {
+    self.init(
+      identity: "",
+      title: error.localizedDescription,
+      date: Date(),
+      genres: []
+    )
+  }
+}
