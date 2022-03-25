@@ -4,7 +4,15 @@ import RxSwiftUtilities
 import RxFlow
 import Foundation
 
-struct ShowDetailViewModel {
+protocol ShowDetailProtocol: Stepper {
+  var refresh: PublishRelay<Void> { get }
+  var activityIndicator: ActivityIndicator { get }
+
+  func showDetail() -> Observable<ShowViewModel>
+  func playShow(url: URL)
+}
+
+struct ShowDetailViewModel: ShowDetailProtocol {
 
   let identity: String
 
@@ -30,7 +38,7 @@ struct ShowDetailViewModel {
   }
 }
 
-extension ShowDetailViewModel: Stepper {
+extension ShowDetailViewModel {
   var initialStep: Step {
     return AppStep.shows
   }

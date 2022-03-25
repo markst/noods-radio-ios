@@ -3,7 +3,7 @@ import UIKitPlus
 class ShowDetailView: UView {
   
   var refreshControl: URefreshControl = URefreshControl()
-  var viewModel: ShowDetailViewModel?
+  var viewModel: ShowDetailProtocol?
   let playButton = LoadingButton()
   
   @UState var show: ShowViewModel?
