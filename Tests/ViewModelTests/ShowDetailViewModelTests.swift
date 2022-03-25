@@ -38,4 +38,21 @@ class ShowDetailViewModelTests: XCTestCase {
     XCTAssertNotNil(showDetail)
     XCTAssertEqual(showDetail, ShowViewModel.init(show: sampleResponse))
   }
+
+  func testShowDetailParseDescription() throws {
+    let viewModel: ShowDetailProtocol = ShowDetailViewModel(
+      identity: "shows/rain-world-21st-march-22",
+      repository: Repository(
+        provider: .init(stubClosure: MoyaProvider.delayedStub(0.5))
+      )
+    )
+
+    let showDetail = try viewModel
+      .showDetail()
+      .toBlocking()
+      .toArray()
+      .first
+
+    XCTAssertTrue((showDetail?.descriptio as? NSAttributedString) != nil)
+  }
 }
