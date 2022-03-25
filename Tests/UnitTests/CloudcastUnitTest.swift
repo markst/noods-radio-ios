@@ -26,5 +26,19 @@ class CloudcastUnitTest: XCTestCase {
     XCTAssertNotNil(cloudcast?.streamInfo.hlsUrl)
     XCTAssertNotNil(cloudcast?.streamInfo.url)
     XCTAssertNotNil(cloudcast?.streamInfo.dashUrl)
+
+    // Decrypt the stream url:
+    let url = try [cloudcast?.streamInfo.hlsUrl,
+                   cloudcast?.streamInfo.url,
+                   cloudcast?.streamInfo.dashUrl]
+      .map({ $0?.decrypt(with: .decryptionKey) })
+      .first??
+      .asURL()
+
+    XCTAssertNotNil(url)
   }
+}
+
+extension String {
+  static let decryptionKey = "IFYOUWANTTHEARTISTSTOGETPAIDDONOTDOWNLOADFROMMIXCLOUD"
 }
