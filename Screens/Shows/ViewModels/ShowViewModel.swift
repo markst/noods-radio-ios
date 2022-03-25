@@ -1,7 +1,7 @@
 import RxDataSources
 import Foundation
 
-protocol ShowCellOutput {
+protocol ShowCellOutput { // ViewModelPressible
   var title: String { get }
   var image: URL? { get }
   var date: String { get }
@@ -28,6 +28,8 @@ struct ShowViewModel: Equatable, IdentifiableType {
   let tracklist: NSAttributedString?
   let mixcloud: URL?
 
+  // MARK: - Init
+
   init(show: Show) {
     self.identity = show.id
     self.title = show.title
@@ -50,16 +52,5 @@ struct ShowViewModel: Equatable, IdentifiableType {
     self.descriptio = show.descriptio?.attributedString ?? .init(string: "")
     self.tracklist = show.tracklist?.attributedString ?? .init(string: "")
     self.mixcloud = try? show.mixcloud?.asURL()
-  }
-}
-
-extension ShowViewModel {
-  init(error: Error) {
-    self.init(
-      identity: "",
-      title: error.localizedDescription,
-      date: nil,
-      genres: []
-    )
   }
 }

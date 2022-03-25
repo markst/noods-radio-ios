@@ -7,7 +7,7 @@ import UIKitPlus
 
 class AppFlow: Flow {
   var root: Presentable {
-    return self.rootViewController
+    return rootViewController
   }
 
   private let services: AppServices

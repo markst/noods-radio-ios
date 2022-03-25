@@ -20,7 +20,10 @@ class AppDelegate: BaseApp {
         // Launch app flow:
         let appFlow = AppFlow(withServices: self.appServices)
 
-        self.coordinator.coordinate(flow: appFlow, with: AppStepper(withServices: self.appServices))
+        self.coordinator.coordinate(
+          flow: appFlow,
+          with: AppStepper(withServices: self.appServices)
+        )
 
         Flows.use(appFlow, when: .created) { [mainScene] root in
           mainScene
