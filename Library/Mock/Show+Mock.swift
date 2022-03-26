@@ -1,7 +1,7 @@
 import Foundation
 
 extension Show {
-  static let mock: Show = .init(
+  internal static let mock: Show = .init(
     id: "123",
     title: "Test",
     date: DateFormatter.default.date(from: "25.03.22"),

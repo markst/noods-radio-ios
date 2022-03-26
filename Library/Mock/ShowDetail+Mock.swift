@@ -1,7 +1,7 @@
 import Foundation
 
 extension ShowDetail {
-  static let mock: ShowDetail = .init(
+  internal static let mock: ShowDetail = .init(
     title: "Join The Future: A History of Bassline - Part 2 (2005-2022)",
     slug: "join-the-future-a-history-of-bassline-part-2-2005-2022-23rd-march-22",
     date: DateFormatter.default.date(from: "25.03.22"),

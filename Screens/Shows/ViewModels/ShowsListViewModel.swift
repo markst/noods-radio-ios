@@ -4,11 +4,10 @@ import RxSwiftUtilities
 import RxFlow
 
 struct ShowsListViewModel {
-  let repository: NoodsRepository
   let refresh = PublishRelay<Void>()
   let activityIndicator = ActivityIndicator()
   let steps = PublishRelay<Step>()
-  
+
   lazy var dataSource: Observable<[ShowViewModel]> = {
     refresh
       .asObservable()
@@ -16,7 +15,10 @@ struct ShowsListViewModel {
       .flatMap { [self] in self.shows() }
       .share()
   }()
-  
+
+  // MARK: - Privates
+  private let repository: NoodsRepository
+
   // MARK: - Init
   
   init(repository: NoodsRepository) {

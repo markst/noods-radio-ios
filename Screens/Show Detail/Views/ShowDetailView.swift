@@ -3,9 +3,9 @@ import UIKitPlus
 class ShowDetailView: UView {
   
   var refreshControl: URefreshControl = URefreshControl()
-  var viewModel: ShowDetailProtocol?
   let playButton = LoadingButton()
-  
+  var viewModel: ShowDetailProtocol?
+
   @UState var show: ShowDetailViewOutput?
   
   override func buildView() {

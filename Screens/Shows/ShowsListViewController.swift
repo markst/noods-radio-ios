@@ -7,8 +7,8 @@ class ShowsListViewController: ViewController {
 
     override var statusBarStyle: StatusBarStyle { .dark }
 
-    var viewModel: ShowsListViewModel
-    let disposeBag = DisposeBag()
+    internal var viewModel: ShowsListViewModel
+    internal let disposeBag = DisposeBag()
 
     // MARK: - Init
 

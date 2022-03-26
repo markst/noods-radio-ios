@@ -15,12 +15,13 @@ protocol ShowDetailProtocol: Stepper {
 
 struct ShowDetailViewModel: ShowDetailProtocol {
 
-  let identity: String
-
-  let repository: NoodsRepository
   let refresh = PublishRelay<Void>()
   let activityIndicator = ActivityIndicator()
   let steps = PublishRelay<Step>()
+
+  // MARK: - Privates
+  private let repository: NoodsRepository
+  private let identity: String
 
   // MARK: - Init
 
