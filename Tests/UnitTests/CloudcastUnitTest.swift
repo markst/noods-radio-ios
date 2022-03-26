@@ -1,10 +1,11 @@
 import XCTest
 import Moya
+import Alamofire
 
 @testable import NoodsRadio
 
 class CloudcastUnitTest: XCTestCase {
-  func testCloudcastParse() throws {
+  func testCloudcastParse() async throws {
     let viewModel: ShowDetailProtocol = ShowDetailViewModel(
       identity: "shows/through-the-years-ethio-jazz-special-w-the-grey-area-20th-march-22",
       repository: Repository(
@@ -28,14 +29,24 @@ class CloudcastUnitTest: XCTestCase {
     XCTAssertNotNil(cloudcast?.streamInfo.dashUrl)
 
     // Decrypt the stream url:
-    let url = try [cloudcast?.streamInfo.hlsUrl,
-                   cloudcast?.streamInfo.url,
-                   cloudcast?.streamInfo.dashUrl]
+    let urls = try [cloudcast?.streamInfo.hlsUrl,
+                    cloudcast?.streamInfo.url,
+                    cloudcast?.streamInfo.dashUrl]
       .map({ $0?.decrypt(with: .decryptionKey) })
-      .first??
-      .asURL()
+      .map({ try $0?.asURL() })
 
-    XCTAssertNotNil(url)
+    XCTAssertTrue(urls.compactMap({ $0 }).count > 0 )
+
+    // Use `CollectionConcurrencyKit` for `asyncMap`?
+
+    // Test the stream has valid response:
+    let dataTask = await AF
+      .request(urls[0]!, method: .head)
+      .validate(statusCode: 200..<300)
+      .serializingData()
+      .response
+
+    XCTAssertNil(dataTask.error)
   }
 }
 
