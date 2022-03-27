@@ -9,7 +9,7 @@ class AppDelegate: BaseApp {
   @AppBuilder override var body: AppBuilderContent {
     Lifecycle
       .didFinishLaunching { [unowned self] in
-        // Avoid loading `ShowsListViewController` is rendering previews:
+        // Avoid loading `ShowsListViewController` if rendering previews:
         if ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1" {
           return
         }

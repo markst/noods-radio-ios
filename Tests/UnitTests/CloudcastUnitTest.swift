@@ -39,7 +39,7 @@ class CloudcastUnitTest: XCTestCase {
 
     // Use `CollectionConcurrencyKit` for `asyncMap`?
 
-    // Test the stream has valid response:
+    // Test the hls stream has valid response:
     let dataTask = await AF
       .request(urls[0]!, method: .head)
       .validate(statusCode: 200..<300)
