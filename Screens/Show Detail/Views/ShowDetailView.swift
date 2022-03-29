@@ -10,7 +10,7 @@ class ShowDetailView: UView {
   
   override func buildView() {
     super.buildView()
-    
+
     body {
       UScrollView() {
         UVStack {
@@ -31,7 +31,7 @@ class ShowDetailView: UView {
                 .aspectRatio()
                 .circle()
                 .background(.black)
-                .height(60)
+                .size(60)
                 UVStack {
                   // Show title:
                   UText($show.map({ $0?.title ?? "" }))
@@ -57,13 +57,15 @@ class ShowDetailView: UView {
                       }
                     }
                     .scrollEnabled(false)
-                    .height(>=30)
+                    .compressionResistance(y: .required)
+                    .height(>=48)
                 }
                 .spacing(6)
               }
               .spacing(10)
               .edgesToSuperview(10)
               .alignment(.center)
+              .distribution(.fill)
             }
             .background(.white)
             .corners(4, [.topLeft, .topRight])
@@ -74,6 +76,7 @@ class ShowDetailView: UView {
           .compressionResistance(y: .required)
           .masksToBounds()
           .aspectRatio()
+
           // Description
           UView() {
             UText($show.map { $0?.descriptio ?? "No Description" })
