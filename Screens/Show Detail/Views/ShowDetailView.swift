@@ -16,7 +16,7 @@ class ShowDetailView: UView {
         UVStack {
           // Header:
           UView() {
-            UImage(url: $show.map({ $0?.image }))
+            UImage(url: $show.map({ $0?.image }), loader: .defaultFade)
               .background(.gray)
               .mode(.scaleAspectFill)
               .edgesToSuperview()

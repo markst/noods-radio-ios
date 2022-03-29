@@ -1,21 +1,28 @@
 import UIKitPlus
 
+extension UImage: Then { }
+
 class ShowCollectionViewCell: UCollectionCell {
   
   @UState var viewModel: ShowCellOutput?
-  
+
+  weak var imageView: UImage?
+
+  // MARK: - 
+
   override func buildView() {
     super.buildView()
     
     contentView.body {
       UVStack {
-        UImage(url: $viewModel.map({ $0?.image }))
+        UImage(url: $viewModel.map({ $0?.image }), loader: .defaultFade)
           .background(.gray)
           .aspectRatio()
           .compressionResistance(y: .required)
           .mode(.scaleAspectFill)
           .corners(4, [])
           .masksToBounds()
+          .do({ imageView = $0 })
         UText($viewModel.map({ $0?.title ?? "" }))
           .font(.hkGroteskBold, 18)
           .multiline()
@@ -46,10 +53,18 @@ class ShowCollectionViewCell: UCollectionCell {
     }
   }
 
+  // MARK: - UICollectionViewCell
+
   override var isHighlighted: Bool {
     didSet {
       contentView.alpha = isHighlighted ? 0.5 : 1.0
     }
+  }
+
+  override func prepareForReuse() {
+    super.prepareForReuse()
+    viewModel = nil
+    imageView?.image = nil
   }
   
   // MARK: - UICollectionReusableView
